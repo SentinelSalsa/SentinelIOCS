@@ -1,0 +1,4505 @@
+[
+  {
+    "type": "identity",
+    "id": "identity--4a19d0d9-680e-4354-ba1c-6d9225ff5657",
+    "name": "IOC Forge Pro User",
+    "identity_class": "organization",
+    "spec_version": "2.1",
+    "created": "2025-11-19T12:00:55.000Z",
+    "modified": "2025-11-19T12:00:55.000Z",
+    "contact_information": "",
+    "labels": [
+      "organization:Security Operations"
+    ],
+    "lang": "en",
+    "external_references": []
+  },
+  {
+    "type": "indicator",
+    "id": "indicator--4fdead03-5e8b-4e38-85c2-95ab3b301af3",
+    "spec_version": "2.1",
+    "created_by_ref": "identity--4a19d0d9-680e-4354-ba1c-6d9225ff5657",
+    "created": "2025-11-19T12:00:55.000Z",
+    "modified": "2025-11-19T12:00:55.000Z",
+    "name": "Akiras latest indicators from CISA report",
+    "description": "Akiras latest indicators from CISA report https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+    "pattern": "[indicator:value = 'd2fd0654710c27dcf37b6c1437880020824e161dd0bf28e3a133ed777242a0ca\r']",
+    "pattern_type": "stix",
+    "valid_from": "2025-11-19T12:00:55.000Z",
+    "valid_until": "2125-10-26T11:00:55.000Z",
+    "indicator_types": [
+      "Other"
+    ],
+    "kill_chain_phases": [
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "ResourceDevelopment"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Reconnaissance"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InitialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Execution"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Persistence"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "PrivilegeEscalation"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Exfiltration"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CommandAndControl"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Collection"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InhibitResponseFunction"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Evasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CredentialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "DefenseEvasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Impact"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "LateralMovement"
+      }
+    ],
+    "labels": [
+      "CISA",
+      "Akira",
+      "Ransomware"
+    ],
+    "confidence": 80,
+    "lang": "en",
+    "external_references": [],
+    "object_marking_refs": []
+  },
+  {
+    "type": "indicator",
+    "id": "indicator--4b7ae6df-7f2c-465f-ac17-02551f2f63d7",
+    "spec_version": "2.1",
+    "created_by_ref": "identity--4a19d0d9-680e-4354-ba1c-6d9225ff5657",
+    "created": "2025-11-19T12:00:55.000Z",
+    "modified": "2025-11-19T12:00:55.000Z",
+    "name": "Akiras latest indicators from CISA report",
+    "description": "Akiras latest indicators from CISA report https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+    "pattern": "[indicator:value = 'dcfa2800754e5722acf94987bb03e814edcb9acebda37df6da1987bf48e5b05e\r']",
+    "pattern_type": "stix",
+    "valid_from": "2025-11-19T12:00:55.000Z",
+    "valid_until": "2125-10-26T11:00:55.000Z",
+    "indicator_types": [
+      "Other"
+    ],
+    "kill_chain_phases": [
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "ResourceDevelopment"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Reconnaissance"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InitialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Execution"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Persistence"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "PrivilegeEscalation"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Exfiltration"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CommandAndControl"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Collection"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InhibitResponseFunction"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Evasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CredentialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "DefenseEvasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Impact"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "LateralMovement"
+      }
+    ],
+    "labels": [
+      "CISA",
+      "Akira",
+      "Ransomware"
+    ],
+    "confidence": 80,
+    "lang": "en",
+    "external_references": [],
+    "object_marking_refs": []
+  },
+  {
+    "type": "indicator",
+    "id": "indicator--5841aceb-5625-4d2d-ab12-fef7065c2a3e",
+    "spec_version": "2.1",
+    "created_by_ref": "identity--4a19d0d9-680e-4354-ba1c-6d9225ff5657",
+    "created": "2025-11-19T12:00:55.000Z",
+    "modified": "2025-11-19T12:00:55.000Z",
+    "name": "Akiras latest indicators from CISA report",
+    "description": "Akiras latest indicators from CISA report https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+    "pattern": "[indicator:value = '3298d203c2acb68c474e5fdad8379181890b4403d6491c523c13730129be3f75\r']",
+    "pattern_type": "stix",
+    "valid_from": "2025-11-19T12:00:55.000Z",
+    "valid_until": "2125-10-26T11:00:55.000Z",
+    "indicator_types": [
+      "Other"
+    ],
+    "kill_chain_phases": [
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "ResourceDevelopment"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Reconnaissance"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InitialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Execution"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Persistence"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "PrivilegeEscalation"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Exfiltration"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CommandAndControl"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Collection"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InhibitResponseFunction"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Evasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CredentialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "DefenseEvasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Impact"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "LateralMovement"
+      }
+    ],
+    "labels": [
+      "CISA",
+      "Akira",
+      "Ransomware"
+    ],
+    "confidence": 80,
+    "lang": "en",
+    "external_references": [],
+    "object_marking_refs": []
+  },
+  {
+    "type": "indicator",
+    "id": "indicator--ba9ed925-3b5b-465b-8790-f9ed9e7640e4",
+    "spec_version": "2.1",
+    "created_by_ref": "identity--4a19d0d9-680e-4354-ba1c-6d9225ff5657",
+    "created": "2025-11-19T12:00:55.000Z",
+    "modified": "2025-11-19T12:00:55.000Z",
+    "name": "Akiras latest indicators from CISA report",
+    "description": "Akiras latest indicators from CISA report https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+    "pattern": "[indicator:value = '0ee1d284ed663073872012c7bde7fac5ca1121403f1a5d2d5411317df282796c\r']",
+    "pattern_type": "stix",
+    "valid_from": "2025-11-19T12:00:55.000Z",
+    "valid_until": "2125-10-26T11:00:55.000Z",
+    "indicator_types": [
+      "Other"
+    ],
+    "kill_chain_phases": [
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "ResourceDevelopment"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Reconnaissance"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InitialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Execution"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Persistence"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "PrivilegeEscalation"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Exfiltration"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CommandAndControl"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Collection"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InhibitResponseFunction"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Evasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CredentialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "DefenseEvasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Impact"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "LateralMovement"
+      }
+    ],
+    "labels": [
+      "CISA",
+      "Akira",
+      "Ransomware"
+    ],
+    "confidence": 80,
+    "lang": "en",
+    "external_references": [],
+    "object_marking_refs": []
+  },
+  {
+    "type": "indicator",
+    "id": "indicator--02150028-d5bf-4769-adff-3f743c82fca5",
+    "spec_version": "2.1",
+    "created_by_ref": "identity--4a19d0d9-680e-4354-ba1c-6d9225ff5657",
+    "created": "2025-11-19T12:00:55.000Z",
+    "modified": "2025-11-19T12:00:55.000Z",
+    "name": "Akiras latest indicators from CISA report",
+    "description": "Akiras latest indicators from CISA report https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+    "pattern": "[indicator:value = 'ffd9f58e5fe8502249c67cad0123ceeeaa6e9f69b4ec9f9e21511809849eb8fc\r']",
+    "pattern_type": "stix",
+    "valid_from": "2025-11-19T12:00:55.000Z",
+    "valid_until": "2125-10-26T11:00:55.000Z",
+    "indicator_types": [
+      "Other"
+    ],
+    "kill_chain_phases": [
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "ResourceDevelopment"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Reconnaissance"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InitialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Execution"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Persistence"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "PrivilegeEscalation"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Exfiltration"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CommandAndControl"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Collection"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InhibitResponseFunction"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Evasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CredentialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "DefenseEvasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Impact"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "LateralMovement"
+      }
+    ],
+    "labels": [
+      "CISA",
+      "Akira",
+      "Ransomware"
+    ],
+    "confidence": 80,
+    "lang": "en",
+    "external_references": [],
+    "object_marking_refs": []
+  },
+  {
+    "type": "indicator",
+    "id": "indicator--93c61ef5-8bfa-4532-99c4-530b5717aa17",
+    "spec_version": "2.1",
+    "created_by_ref": "identity--4a19d0d9-680e-4354-ba1c-6d9225ff5657",
+    "created": "2025-11-19T12:00:55.000Z",
+    "modified": "2025-11-19T12:00:55.000Z",
+    "name": "Akiras latest indicators from CISA report",
+    "description": "Akiras latest indicators from CISA report https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+    "pattern": "[indicator:value = 'dfe6fddc67bdc93b9947430b966da2877fda094edf3e21e6f0ba98a84bc53198\r']",
+    "pattern_type": "stix",
+    "valid_from": "2025-11-19T12:00:55.000Z",
+    "valid_until": "2125-10-26T11:00:55.000Z",
+    "indicator_types": [
+      "Other"
+    ],
+    "kill_chain_phases": [
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "ResourceDevelopment"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Reconnaissance"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InitialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Execution"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Persistence"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "PrivilegeEscalation"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Exfiltration"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CommandAndControl"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Collection"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InhibitResponseFunction"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Evasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CredentialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "DefenseEvasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Impact"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "LateralMovement"
+      }
+    ],
+    "labels": [
+      "CISA",
+      "Akira",
+      "Ransomware"
+    ],
+    "confidence": 80,
+    "lang": "en",
+    "external_references": [],
+    "object_marking_refs": []
+  },
+  {
+    "type": "indicator",
+    "id": "indicator--ab786bf4-5d1b-4e31-b77b-5603ad1dc68f",
+    "spec_version": "2.1",
+    "created_by_ref": "identity--4a19d0d9-680e-4354-ba1c-6d9225ff5657",
+    "created": "2025-11-19T12:00:55.000Z",
+    "modified": "2025-11-19T12:00:55.000Z",
+    "name": "Akiras latest indicators from CISA report",
+    "description": "Akiras latest indicators from CISA report https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+    "pattern": "[indicator:value = '131da83b521f610819141d5c740313ce46578374abb22ef504a7593955a65f07\r']",
+    "pattern_type": "stix",
+    "valid_from": "2025-11-19T12:00:55.000Z",
+    "valid_until": "2125-10-26T11:00:55.000Z",
+    "indicator_types": [
+      "Other"
+    ],
+    "kill_chain_phases": [
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "ResourceDevelopment"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Reconnaissance"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InitialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Execution"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Persistence"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "PrivilegeEscalation"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Exfiltration"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CommandAndControl"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Collection"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InhibitResponseFunction"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Evasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CredentialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "DefenseEvasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Impact"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "LateralMovement"
+      }
+    ],
+    "labels": [
+      "CISA",
+      "Akira",
+      "Ransomware"
+    ],
+    "confidence": 80,
+    "lang": "en",
+    "external_references": [],
+    "object_marking_refs": []
+  },
+  {
+    "type": "indicator",
+    "id": "indicator--04d24bf1-ce33-44d5-b858-a4d3541c4528",
+    "spec_version": "2.1",
+    "created_by_ref": "identity--4a19d0d9-680e-4354-ba1c-6d9225ff5657",
+    "created": "2025-11-19T12:00:55.000Z",
+    "modified": "2025-11-19T12:00:55.000Z",
+    "name": "Akiras latest indicators from CISA report",
+    "description": "Akiras latest indicators from CISA report https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+    "pattern": "[indicator:value = '9f393516edf6b8e011df6ee991758480c5b99a0efbfd68347786061f0e04426c\r']",
+    "pattern_type": "stix",
+    "valid_from": "2025-11-19T12:00:55.000Z",
+    "valid_until": "2125-10-26T11:00:55.000Z",
+    "indicator_types": [
+      "Other"
+    ],
+    "kill_chain_phases": [
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "ResourceDevelopment"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Reconnaissance"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InitialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Execution"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Persistence"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "PrivilegeEscalation"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Exfiltration"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CommandAndControl"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Collection"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InhibitResponseFunction"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Evasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CredentialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "DefenseEvasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Impact"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "LateralMovement"
+      }
+    ],
+    "labels": [
+      "CISA",
+      "Akira",
+      "Ransomware"
+    ],
+    "confidence": 80,
+    "lang": "en",
+    "external_references": [],
+    "object_marking_refs": []
+  },
+  {
+    "type": "indicator",
+    "id": "indicator--58d715f2-5209-4263-8b43-4f2962af5c6a",
+    "spec_version": "2.1",
+    "created_by_ref": "identity--4a19d0d9-680e-4354-ba1c-6d9225ff5657",
+    "created": "2025-11-19T12:00:55.000Z",
+    "modified": "2025-11-19T12:00:55.000Z",
+    "name": "Akiras latest indicators from CISA report",
+    "description": "Akiras latest indicators from CISA report https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+    "pattern": "[indicator:value = '9585af44c3ff8fd921c713680b0c2b3bbc9d56add848ed62164f7c9b9f23d065\r']",
+    "pattern_type": "stix",
+    "valid_from": "2025-11-19T12:00:55.000Z",
+    "valid_until": "2125-10-26T11:00:55.000Z",
+    "indicator_types": [
+      "Other"
+    ],
+    "kill_chain_phases": [
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "ResourceDevelopment"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Reconnaissance"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InitialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Execution"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Persistence"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "PrivilegeEscalation"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Exfiltration"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CommandAndControl"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Collection"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InhibitResponseFunction"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Evasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CredentialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "DefenseEvasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Impact"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "LateralMovement"
+      }
+    ],
+    "labels": [
+      "CISA",
+      "Akira",
+      "Ransomware"
+    ],
+    "confidence": 80,
+    "lang": "en",
+    "external_references": [],
+    "object_marking_refs": []
+  },
+  {
+    "type": "indicator",
+    "id": "indicator--76463c15-2eb8-4d32-8ed6-2e05acfeb32a",
+    "spec_version": "2.1",
+    "created_by_ref": "identity--4a19d0d9-680e-4354-ba1c-6d9225ff5657",
+    "created": "2025-11-19T12:00:55.000Z",
+    "modified": "2025-11-19T12:00:55.000Z",
+    "name": "Akiras latest indicators from CISA report",
+    "description": "Akiras latest indicators from CISA report https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+    "pattern": "[indicator:value = '2f629395fdfa11e713ea8bf11d40f6f240acf2f5fcf9a2ac50b6f7fbc7521c83\r']",
+    "pattern_type": "stix",
+    "valid_from": "2025-11-19T12:00:55.000Z",
+    "valid_until": "2125-10-26T11:00:55.000Z",
+    "indicator_types": [
+      "Other"
+    ],
+    "kill_chain_phases": [
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "ResourceDevelopment"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Reconnaissance"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InitialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Execution"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Persistence"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "PrivilegeEscalation"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Exfiltration"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CommandAndControl"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Collection"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InhibitResponseFunction"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Evasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CredentialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "DefenseEvasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Impact"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "LateralMovement"
+      }
+    ],
+    "labels": [
+      "CISA",
+      "Akira",
+      "Ransomware"
+    ],
+    "confidence": 80,
+    "lang": "en",
+    "external_references": [],
+    "object_marking_refs": []
+  },
+  {
+    "type": "indicator",
+    "id": "indicator--bfab2cd4-f3d2-4bce-9c5c-8a9c662f2942",
+    "spec_version": "2.1",
+    "created_by_ref": "identity--4a19d0d9-680e-4354-ba1c-6d9225ff5657",
+    "created": "2025-11-19T12:00:55.000Z",
+    "modified": "2025-11-19T12:00:55.000Z",
+    "name": "Akiras latest indicators from CISA report",
+    "description": "Akiras latest indicators from CISA report https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+    "pattern": "[indicator:value = '7f731cc11f8e4d249142e99a44b9da7a48505ce32c4ee4881041beeddb3760be\r']",
+    "pattern_type": "stix",
+    "valid_from": "2025-11-19T12:00:55.000Z",
+    "valid_until": "2125-10-26T11:00:55.000Z",
+    "indicator_types": [
+      "Other"
+    ],
+    "kill_chain_phases": [
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "ResourceDevelopment"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Reconnaissance"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InitialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Execution"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Persistence"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "PrivilegeEscalation"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Exfiltration"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CommandAndControl"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Collection"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InhibitResponseFunction"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Evasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CredentialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "DefenseEvasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Impact"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "LateralMovement"
+      }
+    ],
+    "labels": [
+      "CISA",
+      "Akira",
+      "Ransomware"
+    ],
+    "confidence": 80,
+    "lang": "en",
+    "external_references": [],
+    "object_marking_refs": []
+  },
+  {
+    "type": "indicator",
+    "id": "indicator--802a6f15-071d-4a16-af8f-b89394309d4d",
+    "spec_version": "2.1",
+    "created_by_ref": "identity--4a19d0d9-680e-4354-ba1c-6d9225ff5657",
+    "created": "2025-11-19T12:00:55.000Z",
+    "modified": "2025-11-19T12:00:55.000Z",
+    "name": "Akiras latest indicators from CISA report",
+    "description": "Akiras latest indicators from CISA report https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+    "pattern": "[indicator:value = '95477703e789e6182096a09bc98853e0a70b680a4f19fa2bf86cbb9280e8ec5a\r']",
+    "pattern_type": "stix",
+    "valid_from": "2025-11-19T12:00:55.000Z",
+    "valid_until": "2125-10-26T11:00:55.000Z",
+    "indicator_types": [
+      "Other"
+    ],
+    "kill_chain_phases": [
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "ResourceDevelopment"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Reconnaissance"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InitialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Execution"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Persistence"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "PrivilegeEscalation"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Exfiltration"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CommandAndControl"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Collection"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InhibitResponseFunction"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Evasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CredentialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "DefenseEvasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Impact"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "LateralMovement"
+      }
+    ],
+    "labels": [
+      "CISA",
+      "Akira",
+      "Ransomware"
+    ],
+    "confidence": 80,
+    "lang": "en",
+    "external_references": [],
+    "object_marking_refs": []
+  },
+  {
+    "type": "indicator",
+    "id": "indicator--8d1d6669-3191-410f-b48a-09fbd8ad2154",
+    "spec_version": "2.1",
+    "created_by_ref": "identity--4a19d0d9-680e-4354-ba1c-6d9225ff5657",
+    "created": "2025-11-19T12:00:55.000Z",
+    "modified": "2025-11-19T12:00:55.000Z",
+    "name": "Akiras latest indicators from CISA report",
+    "description": "Akiras latest indicators from CISA report https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+    "pattern": "[indicator:value = '0c0e0f9b09b80d87ebc88e2870907b6cacb4cd7703584baf8f2be1fd9438696d\r']",
+    "pattern_type": "stix",
+    "valid_from": "2025-11-19T12:00:55.000Z",
+    "valid_until": "2125-10-26T11:00:55.000Z",
+    "indicator_types": [
+      "Other"
+    ],
+    "kill_chain_phases": [
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "ResourceDevelopment"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Reconnaissance"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InitialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Execution"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Persistence"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "PrivilegeEscalation"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Exfiltration"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CommandAndControl"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Collection"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InhibitResponseFunction"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Evasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CredentialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "DefenseEvasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Impact"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "LateralMovement"
+      }
+    ],
+    "labels": [
+      "CISA",
+      "Akira",
+      "Ransomware"
+    ],
+    "confidence": 80,
+    "lang": "en",
+    "external_references": [],
+    "object_marking_refs": []
+  },
+  {
+    "type": "indicator",
+    "id": "indicator--3b0fe519-361d-42b8-800e-b7a64c15084e",
+    "spec_version": "2.1",
+    "created_by_ref": "identity--4a19d0d9-680e-4354-ba1c-6d9225ff5657",
+    "created": "2025-11-19T12:00:55.000Z",
+    "modified": "2025-11-19T12:00:55.000Z",
+    "name": "Akiras latest indicators from CISA report",
+    "description": "Akiras latest indicators from CISA report https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+    "pattern": "[indicator:value = 'c9c94ac5e1991a7db42c7973e328fceeb6f163d9f644031bdfd4123c7b3898b0\r']",
+    "pattern_type": "stix",
+    "valid_from": "2025-11-19T12:00:55.000Z",
+    "valid_until": "2125-10-26T11:00:55.000Z",
+    "indicator_types": [
+      "Other"
+    ],
+    "kill_chain_phases": [
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "ResourceDevelopment"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Reconnaissance"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InitialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Execution"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Persistence"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "PrivilegeEscalation"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Exfiltration"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CommandAndControl"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Collection"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InhibitResponseFunction"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Evasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CredentialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "DefenseEvasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Impact"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "LateralMovement"
+      }
+    ],
+    "labels": [
+      "CISA",
+      "Akira",
+      "Ransomware"
+    ],
+    "confidence": 80,
+    "lang": "en",
+    "external_references": [],
+    "object_marking_refs": []
+  },
+  {
+    "type": "indicator",
+    "id": "indicator--c35e4e82-5c27-4e38-9959-8239d8030964",
+    "spec_version": "2.1",
+    "created_by_ref": "identity--4a19d0d9-680e-4354-ba1c-6d9225ff5657",
+    "created": "2025-11-19T12:00:55.000Z",
+    "modified": "2025-11-19T12:00:55.000Z",
+    "name": "Akiras latest indicators from CISA report",
+    "description": "Akiras latest indicators from CISA report https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+    "pattern": "[indicator:value = 'aaa6041912a6ba3cf167ecdb90a434a62feaf08639c59705847706b9f492015d\r']",
+    "pattern_type": "stix",
+    "valid_from": "2025-11-19T12:00:55.000Z",
+    "valid_until": "2125-10-26T11:00:55.000Z",
+    "indicator_types": [
+      "Other"
+    ],
+    "kill_chain_phases": [
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "ResourceDevelopment"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Reconnaissance"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InitialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Execution"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Persistence"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "PrivilegeEscalation"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Exfiltration"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CommandAndControl"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Collection"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InhibitResponseFunction"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Evasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CredentialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "DefenseEvasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Impact"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "LateralMovement"
+      }
+    ],
+    "labels": [
+      "CISA",
+      "Akira",
+      "Ransomware"
+    ],
+    "confidence": 80,
+    "lang": "en",
+    "external_references": [],
+    "object_marking_refs": []
+  },
+  {
+    "type": "indicator",
+    "id": "indicator--4d47dd28-a854-4a85-b98b-53b825301f09",
+    "spec_version": "2.1",
+    "created_by_ref": "identity--4a19d0d9-680e-4354-ba1c-6d9225ff5657",
+    "created": "2025-11-19T12:00:55.000Z",
+    "modified": "2025-11-19T12:00:55.000Z",
+    "name": "Akiras latest indicators from CISA report",
+    "description": "Akiras latest indicators from CISA report https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+    "pattern": "[indicator:value = '18051333e658c4816ff3576a2e9d97fe2a1196ac0ea5ed9ba386c46defafdb88\r']",
+    "pattern_type": "stix",
+    "valid_from": "2025-11-19T12:00:55.000Z",
+    "valid_until": "2125-10-26T11:00:55.000Z",
+    "indicator_types": [
+      "Other"
+    ],
+    "kill_chain_phases": [
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "ResourceDevelopment"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Reconnaissance"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InitialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Execution"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Persistence"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "PrivilegeEscalation"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Exfiltration"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CommandAndControl"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Collection"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InhibitResponseFunction"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Evasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CredentialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "DefenseEvasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Impact"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "LateralMovement"
+      }
+    ],
+    "labels": [
+      "CISA",
+      "Akira",
+      "Ransomware"
+    ],
+    "confidence": 80,
+    "lang": "en",
+    "external_references": [],
+    "object_marking_refs": []
+  },
+  {
+    "type": "indicator",
+    "id": "indicator--8bb5404c-4602-4924-9ffa-7d6d378e70dc",
+    "spec_version": "2.1",
+    "created_by_ref": "identity--4a19d0d9-680e-4354-ba1c-6d9225ff5657",
+    "created": "2025-11-19T12:00:55.000Z",
+    "modified": "2025-11-19T12:00:55.000Z",
+    "name": "Akiras latest indicators from CISA report",
+    "description": "Akiras latest indicators from CISA report https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+    "pattern": "[indicator:value = '5e1e3bf6999126ae4aa52146280fdb913912632e8bac4f54e98c58821a307d32\r']",
+    "pattern_type": "stix",
+    "valid_from": "2025-11-19T12:00:55.000Z",
+    "valid_until": "2125-10-26T11:00:55.000Z",
+    "indicator_types": [
+      "Other"
+    ],
+    "kill_chain_phases": [
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "ResourceDevelopment"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Reconnaissance"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InitialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Execution"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Persistence"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "PrivilegeEscalation"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Exfiltration"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CommandAndControl"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Collection"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InhibitResponseFunction"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Evasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CredentialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "DefenseEvasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Impact"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "LateralMovement"
+      }
+    ],
+    "labels": [
+      "CISA",
+      "Akira",
+      "Ransomware"
+    ],
+    "confidence": 80,
+    "lang": "en",
+    "external_references": [],
+    "object_marking_refs": []
+  },
+  {
+    "type": "indicator",
+    "id": "indicator--500eba6f-6580-432c-b875-c2d01b0558dd",
+    "spec_version": "2.1",
+    "created_by_ref": "identity--4a19d0d9-680e-4354-ba1c-6d9225ff5657",
+    "created": "2025-11-19T12:00:55.000Z",
+    "modified": "2025-11-19T12:00:55.000Z",
+    "name": "Akiras latest indicators from CISA report",
+    "description": "Akiras latest indicators from CISA report https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+    "pattern": "[indicator:value = '58359209e215a9fc0dafd14039121398559790dba9aa2398c457348ee1cb8a4d\r']",
+    "pattern_type": "stix",
+    "valid_from": "2025-11-19T12:00:55.000Z",
+    "valid_until": "2125-10-26T11:00:55.000Z",
+    "indicator_types": [
+      "Other"
+    ],
+    "kill_chain_phases": [
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "ResourceDevelopment"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Reconnaissance"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InitialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Execution"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Persistence"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "PrivilegeEscalation"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Exfiltration"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CommandAndControl"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Collection"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InhibitResponseFunction"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Evasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CredentialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "DefenseEvasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Impact"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "LateralMovement"
+      }
+    ],
+    "labels": [
+      "CISA",
+      "Akira",
+      "Ransomware"
+    ],
+    "confidence": 80,
+    "lang": "en",
+    "external_references": [],
+    "object_marking_refs": []
+  },
+  {
+    "type": "indicator",
+    "id": "indicator--6ad87c1d-ae5b-4a4b-97f6-c8544614d7dc",
+    "spec_version": "2.1",
+    "created_by_ref": "identity--4a19d0d9-680e-4354-ba1c-6d9225ff5657",
+    "created": "2025-11-19T12:00:55.000Z",
+    "modified": "2025-11-19T12:00:55.000Z",
+    "name": "Akiras latest indicators from CISA report",
+    "description": "Akiras latest indicators from CISA report https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+    "pattern": "[indicator:value = 'cf3465d7e49b609defa1e2b6cfcc86ffa30c72246cb2744dbf50736c5f3d74d5\r']",
+    "pattern_type": "stix",
+    "valid_from": "2025-11-19T12:00:55.000Z",
+    "valid_until": "2125-10-26T11:00:55.000Z",
+    "indicator_types": [
+      "Other"
+    ],
+    "kill_chain_phases": [
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "ResourceDevelopment"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Reconnaissance"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InitialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Execution"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Persistence"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "PrivilegeEscalation"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Exfiltration"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CommandAndControl"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Collection"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InhibitResponseFunction"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Evasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CredentialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "DefenseEvasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Impact"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "LateralMovement"
+      }
+    ],
+    "labels": [
+      "CISA",
+      "Akira",
+      "Ransomware"
+    ],
+    "confidence": 80,
+    "lang": "en",
+    "external_references": [],
+    "object_marking_refs": []
+  },
+  {
+    "type": "indicator",
+    "id": "indicator--0ae7c47c-0444-46c8-8187-cf018546f2d8",
+    "spec_version": "2.1",
+    "created_by_ref": "identity--4a19d0d9-680e-4354-ba1c-6d9225ff5657",
+    "created": "2025-11-19T12:00:55.000Z",
+    "modified": "2025-11-19T12:00:55.000Z",
+    "name": "Akiras latest indicators from CISA report",
+    "description": "Akiras latest indicators from CISA report https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+    "pattern": "[indicator:value = '58afef43cec0ee7a2fbfd9cdd5b71f55f971672d5e523a400b82b98c752ca5b7\r']",
+    "pattern_type": "stix",
+    "valid_from": "2025-11-19T12:00:55.000Z",
+    "valid_until": "2125-10-26T11:00:55.000Z",
+    "indicator_types": [
+      "Other"
+    ],
+    "kill_chain_phases": [
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "ResourceDevelopment"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Reconnaissance"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InitialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Execution"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Persistence"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "PrivilegeEscalation"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Exfiltration"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CommandAndControl"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Collection"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InhibitResponseFunction"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Evasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CredentialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "DefenseEvasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Impact"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "LateralMovement"
+      }
+    ],
+    "labels": [
+      "CISA",
+      "Akira",
+      "Ransomware"
+    ],
+    "confidence": 80,
+    "lang": "en",
+    "external_references": [],
+    "object_marking_refs": []
+  },
+  {
+    "type": "indicator",
+    "id": "indicator--e8cefdb2-d265-485e-97bf-b41ac74cc487",
+    "spec_version": "2.1",
+    "created_by_ref": "identity--4a19d0d9-680e-4354-ba1c-6d9225ff5657",
+    "created": "2025-11-19T12:00:55.000Z",
+    "modified": "2025-11-19T12:00:55.000Z",
+    "name": "Akiras latest indicators from CISA report",
+    "description": "Akiras latest indicators from CISA report https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+    "pattern": "[indicator:value = 'bfd5fc6cd3dea74738ac7025fa14ea844f400708df2293572796568f65bd6b61\r']",
+    "pattern_type": "stix",
+    "valid_from": "2025-11-19T12:00:55.000Z",
+    "valid_until": "2125-10-26T11:00:55.000Z",
+    "indicator_types": [
+      "Other"
+    ],
+    "kill_chain_phases": [
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "ResourceDevelopment"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Reconnaissance"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InitialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Execution"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Persistence"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "PrivilegeEscalation"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Exfiltration"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CommandAndControl"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Collection"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InhibitResponseFunction"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Evasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CredentialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "DefenseEvasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Impact"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "LateralMovement"
+      }
+    ],
+    "labels": [
+      "CISA",
+      "Akira",
+      "Ransomware"
+    ],
+    "confidence": 80,
+    "lang": "en",
+    "external_references": [],
+    "object_marking_refs": []
+  },
+  {
+    "type": "indicator",
+    "id": "indicator--e8708c37-2537-4881-a885-c5df6089172b",
+    "spec_version": "2.1",
+    "created_by_ref": "identity--4a19d0d9-680e-4354-ba1c-6d9225ff5657",
+    "created": "2025-11-19T12:00:55.000Z",
+    "modified": "2025-11-19T12:00:55.000Z",
+    "name": "Akiras latest indicators from CISA report",
+    "description": "Akiras latest indicators from CISA report https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+    "pattern": "[indicator:value = '8e12c8eb39cec9a414b56a36acbcc1a5b31dc96a38bc668138a00f94f7c26ea5\r']",
+    "pattern_type": "stix",
+    "valid_from": "2025-11-19T12:00:55.000Z",
+    "valid_until": "2125-10-26T11:00:55.000Z",
+    "indicator_types": [
+      "Other"
+    ],
+    "kill_chain_phases": [
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "ResourceDevelopment"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Reconnaissance"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InitialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Execution"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Persistence"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "PrivilegeEscalation"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Exfiltration"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CommandAndControl"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Collection"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InhibitResponseFunction"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Evasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CredentialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "DefenseEvasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Impact"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "LateralMovement"
+      }
+    ],
+    "labels": [
+      "CISA",
+      "Akira",
+      "Ransomware"
+    ],
+    "confidence": 80,
+    "lang": "en",
+    "external_references": [],
+    "object_marking_refs": []
+  },
+  {
+    "type": "indicator",
+    "id": "indicator--29a5f136-a028-40a9-b430-00b870fb2284",
+    "spec_version": "2.1",
+    "created_by_ref": "identity--4a19d0d9-680e-4354-ba1c-6d9225ff5657",
+    "created": "2025-11-19T12:00:55.000Z",
+    "modified": "2025-11-19T12:00:55.000Z",
+    "name": "Akiras latest indicators from CISA report",
+    "description": "Akiras latest indicators from CISA report https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+    "pattern": "[indicator:value = '4dc9f9684f715f50946e85557b82af80fcb45576efad47eee1bf054c15e570f0\r']",
+    "pattern_type": "stix",
+    "valid_from": "2025-11-19T12:00:55.000Z",
+    "valid_until": "2125-10-26T11:00:55.000Z",
+    "indicator_types": [
+      "Other"
+    ],
+    "kill_chain_phases": [
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "ResourceDevelopment"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Reconnaissance"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InitialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Execution"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Persistence"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "PrivilegeEscalation"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Exfiltration"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CommandAndControl"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Collection"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InhibitResponseFunction"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Evasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CredentialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "DefenseEvasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Impact"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "LateralMovement"
+      }
+    ],
+    "labels": [
+      "CISA",
+      "Akira",
+      "Ransomware"
+    ],
+    "confidence": 80,
+    "lang": "en",
+    "external_references": [],
+    "object_marking_refs": []
+  },
+  {
+    "type": "indicator",
+    "id": "indicator--427c8895-e85c-4912-886a-2b1dae5389a5",
+    "spec_version": "2.1",
+    "created_by_ref": "identity--4a19d0d9-680e-4354-ba1c-6d9225ff5657",
+    "created": "2025-11-19T12:00:55.000Z",
+    "modified": "2025-11-19T12:00:55.000Z",
+    "name": "Akiras latest indicators from CISA report",
+    "description": "Akiras latest indicators from CISA report https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+    "pattern": "[indicator:value = '7266e2afb5c70788c018d684698b0940eded4cb863f2b33f4edd31b59d1eab1d\r']",
+    "pattern_type": "stix",
+    "valid_from": "2025-11-19T12:00:55.000Z",
+    "valid_until": "2125-10-26T11:00:55.000Z",
+    "indicator_types": [
+      "Other"
+    ],
+    "kill_chain_phases": [
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "ResourceDevelopment"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Reconnaissance"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InitialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Execution"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Persistence"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "PrivilegeEscalation"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Exfiltration"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CommandAndControl"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Collection"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InhibitResponseFunction"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Evasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CredentialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "DefenseEvasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Impact"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "LateralMovement"
+      }
+    ],
+    "labels": [
+      "CISA",
+      "Akira",
+      "Ransomware"
+    ],
+    "confidence": 80,
+    "lang": "en",
+    "external_references": [],
+    "object_marking_refs": []
+  },
+  {
+    "type": "indicator",
+    "id": "indicator--33201527-b608-4482-b4fd-293baa104425",
+    "spec_version": "2.1",
+    "created_by_ref": "identity--4a19d0d9-680e-4354-ba1c-6d9225ff5657",
+    "created": "2025-11-19T12:00:55.000Z",
+    "modified": "2025-11-19T12:00:55.000Z",
+    "name": "Akiras latest indicators from CISA report",
+    "description": "Akiras latest indicators from CISA report https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+    "pattern": "[indicator:value = 'c0f706ff43936c1bb19db4f39b11129c3fc8ddafbd159852475ef99a246b2f79\r']",
+    "pattern_type": "stix",
+    "valid_from": "2025-11-19T12:00:55.000Z",
+    "valid_until": "2125-10-26T11:00:55.000Z",
+    "indicator_types": [
+      "Other"
+    ],
+    "kill_chain_phases": [
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "ResourceDevelopment"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Reconnaissance"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InitialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Execution"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Persistence"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "PrivilegeEscalation"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Exfiltration"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CommandAndControl"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Collection"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InhibitResponseFunction"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Evasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CredentialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "DefenseEvasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Impact"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "LateralMovement"
+      }
+    ],
+    "labels": [
+      "CISA",
+      "Akira",
+      "Ransomware"
+    ],
+    "confidence": 80,
+    "lang": "en",
+    "external_references": [],
+    "object_marking_refs": []
+  },
+  {
+    "type": "indicator",
+    "id": "indicator--85f7095c-df29-407f-81a7-b8f9e8308c4a",
+    "spec_version": "2.1",
+    "created_by_ref": "identity--4a19d0d9-680e-4354-ba1c-6d9225ff5657",
+    "created": "2025-11-19T12:00:55.000Z",
+    "modified": "2025-11-19T12:00:55.000Z",
+    "name": "Akiras latest indicators from CISA report",
+    "description": "Akiras latest indicators from CISA report https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+    "pattern": "[indicator:value = '3a25d3f82651567e5760e48ad06c9f6caab4f9fdc071e98919163b3a71e67168\r']",
+    "pattern_type": "stix",
+    "valid_from": "2025-11-19T12:00:55.000Z",
+    "valid_until": "2125-10-26T11:00:55.000Z",
+    "indicator_types": [
+      "Other"
+    ],
+    "kill_chain_phases": [
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "ResourceDevelopment"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Reconnaissance"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InitialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Execution"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Persistence"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "PrivilegeEscalation"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Exfiltration"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CommandAndControl"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Collection"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InhibitResponseFunction"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Evasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CredentialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "DefenseEvasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Impact"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "LateralMovement"
+      }
+    ],
+    "labels": [
+      "CISA",
+      "Akira",
+      "Ransomware"
+    ],
+    "confidence": 80,
+    "lang": "en",
+    "external_references": [],
+    "object_marking_refs": []
+  },
+  {
+    "type": "indicator",
+    "id": "indicator--4c2f6275-abbf-4952-acd8-66ed82efa200",
+    "spec_version": "2.1",
+    "created_by_ref": "identity--4a19d0d9-680e-4354-ba1c-6d9225ff5657",
+    "created": "2025-11-19T12:00:55.000Z",
+    "modified": "2025-11-19T12:00:55.000Z",
+    "name": "Akiras latest indicators from CISA report",
+    "description": "Akiras latest indicators from CISA report https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+    "pattern": "[indicator:value = 'cfa209d56e296c40b32815270060e539963d68cda3285c5f393c97eb3c960d37\r']",
+    "pattern_type": "stix",
+    "valid_from": "2025-11-19T12:00:55.000Z",
+    "valid_until": "2125-10-26T11:00:55.000Z",
+    "indicator_types": [
+      "Other"
+    ],
+    "kill_chain_phases": [
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "ResourceDevelopment"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Reconnaissance"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InitialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Execution"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Persistence"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "PrivilegeEscalation"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Exfiltration"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CommandAndControl"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Collection"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InhibitResponseFunction"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Evasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CredentialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "DefenseEvasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Impact"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "LateralMovement"
+      }
+    ],
+    "labels": [
+      "CISA",
+      "Akira",
+      "Ransomware"
+    ],
+    "confidence": 80,
+    "lang": "en",
+    "external_references": [],
+    "object_marking_refs": []
+  },
+  {
+    "type": "indicator",
+    "id": "indicator--99d6082c-96ff-42b9-b9bf-da0b34070fd8",
+    "spec_version": "2.1",
+    "created_by_ref": "identity--4a19d0d9-680e-4354-ba1c-6d9225ff5657",
+    "created": "2025-11-19T12:00:55.000Z",
+    "modified": "2025-11-19T12:00:55.000Z",
+    "name": "Akiras latest indicators from CISA report",
+    "description": "Akiras latest indicators from CISA report https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+    "pattern": "[indicator:value = '77d48e8c13ce066b197905cc8fc69969af69b74d25f5e95dcd1302ada2e7ccec\r']",
+    "pattern_type": "stix",
+    "valid_from": "2025-11-19T12:00:55.000Z",
+    "valid_until": "2125-10-26T11:00:55.000Z",
+    "indicator_types": [
+      "Other"
+    ],
+    "kill_chain_phases": [
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "ResourceDevelopment"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Reconnaissance"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InitialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Execution"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Persistence"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "PrivilegeEscalation"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Exfiltration"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CommandAndControl"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Collection"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InhibitResponseFunction"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Evasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CredentialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "DefenseEvasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Impact"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "LateralMovement"
+      }
+    ],
+    "labels": [
+      "CISA",
+      "Akira",
+      "Ransomware"
+    ],
+    "confidence": 80,
+    "lang": "en",
+    "external_references": [],
+    "object_marking_refs": []
+  },
+  {
+    "type": "indicator",
+    "id": "indicator--7c0b3338-b7a0-4043-ab24-b8d1a4bcd43b",
+    "spec_version": "2.1",
+    "created_by_ref": "identity--4a19d0d9-680e-4354-ba1c-6d9225ff5657",
+    "created": "2025-11-19T12:00:55.000Z",
+    "modified": "2025-11-19T12:00:55.000Z",
+    "name": "Akiras latest indicators from CISA report",
+    "description": "Akiras latest indicators from CISA report https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+    "pattern": "[indicator:value = '57d1aeb41d9cfea4d6899724bc4b09a5\r']",
+    "pattern_type": "stix",
+    "valid_from": "2025-11-19T12:00:55.000Z",
+    "valid_until": "2125-10-26T11:00:55.000Z",
+    "indicator_types": [
+      "Other"
+    ],
+    "kill_chain_phases": [
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "ResourceDevelopment"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Reconnaissance"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InitialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Execution"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Persistence"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "PrivilegeEscalation"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Exfiltration"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CommandAndControl"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Collection"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InhibitResponseFunction"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Evasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CredentialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "DefenseEvasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Impact"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "LateralMovement"
+      }
+    ],
+    "labels": [
+      "CISA",
+      "Akira",
+      "Ransomware"
+    ],
+    "confidence": 80,
+    "lang": "en",
+    "external_references": [],
+    "object_marking_refs": []
+  },
+  {
+    "type": "indicator",
+    "id": "indicator--313bd15a-3f7d-49b7-8540-4b697ac88f82",
+    "spec_version": "2.1",
+    "created_by_ref": "identity--4a19d0d9-680e-4354-ba1c-6d9225ff5657",
+    "created": "2025-11-19T12:00:55.000Z",
+    "modified": "2025-11-19T12:00:55.000Z",
+    "name": "Akiras latest indicators from CISA report",
+    "description": "Akiras latest indicators from CISA report https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+    "pattern": "[indicator:value = '17c624693f5dd575485ec4286b0ba786\r']",
+    "pattern_type": "stix",
+    "valid_from": "2025-11-19T12:00:55.000Z",
+    "valid_until": "2125-10-26T11:00:55.000Z",
+    "indicator_types": [
+      "Other"
+    ],
+    "kill_chain_phases": [
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "ResourceDevelopment"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Reconnaissance"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InitialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Execution"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Persistence"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "PrivilegeEscalation"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Exfiltration"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CommandAndControl"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Collection"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InhibitResponseFunction"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Evasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CredentialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "DefenseEvasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Impact"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "LateralMovement"
+      }
+    ],
+    "labels": [
+      "CISA",
+      "Akira",
+      "Ransomware"
+    ],
+    "confidence": 80,
+    "lang": "en",
+    "external_references": [],
+    "object_marking_refs": []
+  },
+  {
+    "type": "indicator",
+    "id": "indicator--be0efbb5-f0aa-4667-93cd-f372b137d38e",
+    "spec_version": "2.1",
+    "created_by_ref": "identity--4a19d0d9-680e-4354-ba1c-6d9225ff5657",
+    "created": "2025-11-19T12:00:55.000Z",
+    "modified": "2025-11-19T12:00:55.000Z",
+    "name": "Akiras latest indicators from CISA report",
+    "description": "Akiras latest indicators from CISA report https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+    "pattern": "[indicator:value = 'c56b31c9080b993d57c100b91d096c33\r']",
+    "pattern_type": "stix",
+    "valid_from": "2025-11-19T12:00:55.000Z",
+    "valid_until": "2125-10-26T11:00:55.000Z",
+    "indicator_types": [
+      "Other"
+    ],
+    "kill_chain_phases": [
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "ResourceDevelopment"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Reconnaissance"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InitialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Execution"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Persistence"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "PrivilegeEscalation"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Exfiltration"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CommandAndControl"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Collection"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InhibitResponseFunction"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Evasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CredentialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "DefenseEvasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Impact"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "LateralMovement"
+      }
+    ],
+    "labels": [
+      "CISA",
+      "Akira",
+      "Ransomware"
+    ],
+    "confidence": 80,
+    "lang": "en",
+    "external_references": [],
+    "object_marking_refs": []
+  },
+  {
+    "type": "indicator",
+    "id": "indicator--e0543908-8d3f-4df4-a21d-87ab4b54add7",
+    "spec_version": "2.1",
+    "created_by_ref": "identity--4a19d0d9-680e-4354-ba1c-6d9225ff5657",
+    "created": "2025-11-19T12:00:55.000Z",
+    "modified": "2025-11-19T12:00:55.000Z",
+    "name": "Akiras latest indicators from CISA report",
+    "description": "Akiras latest indicators from CISA report https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+    "pattern": "[indicator:value = '2fed7579556f01161bb1fdfd1c3e9e6c\r']",
+    "pattern_type": "stix",
+    "valid_from": "2025-11-19T12:00:55.000Z",
+    "valid_until": "2125-10-26T11:00:55.000Z",
+    "indicator_types": [
+      "Other"
+    ],
+    "kill_chain_phases": [
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "ResourceDevelopment"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Reconnaissance"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InitialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Execution"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Persistence"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "PrivilegeEscalation"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Exfiltration"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CommandAndControl"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Collection"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InhibitResponseFunction"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Evasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CredentialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "DefenseEvasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Impact"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "LateralMovement"
+      }
+    ],
+    "labels": [
+      "CISA",
+      "Akira",
+      "Ransomware"
+    ],
+    "confidence": 80,
+    "lang": "en",
+    "external_references": [],
+    "object_marking_refs": []
+  },
+  {
+    "type": "indicator",
+    "id": "indicator--35576f8f-1287-400f-b139-4ae2edbfb0ac",
+    "spec_version": "2.1",
+    "created_by_ref": "identity--4a19d0d9-680e-4354-ba1c-6d9225ff5657",
+    "created": "2025-11-19T12:00:55.000Z",
+    "modified": "2025-11-19T12:00:55.000Z",
+    "name": "Akiras latest indicators from CISA report",
+    "description": "Akiras latest indicators from CISA report https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+    "pattern": "[indicator:value = '24e19d29a47b6b5e1a39bf5e4c313194\r']",
+    "pattern_type": "stix",
+    "valid_from": "2025-11-19T12:00:55.000Z",
+    "valid_until": "2125-10-26T11:00:55.000Z",
+    "indicator_types": [
+      "Other"
+    ],
+    "kill_chain_phases": [
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "ResourceDevelopment"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Reconnaissance"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InitialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Execution"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Persistence"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "PrivilegeEscalation"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Exfiltration"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CommandAndControl"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Collection"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InhibitResponseFunction"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Evasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CredentialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "DefenseEvasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Impact"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "LateralMovement"
+      }
+    ],
+    "labels": [
+      "CISA",
+      "Akira",
+      "Ransomware"
+    ],
+    "confidence": 80,
+    "lang": "en",
+    "external_references": [],
+    "object_marking_refs": []
+  },
+  {
+    "type": "indicator",
+    "id": "indicator--94d81e6d-5860-4927-b867-d77c65e187a6",
+    "spec_version": "2.1",
+    "created_by_ref": "identity--4a19d0d9-680e-4354-ba1c-6d9225ff5657",
+    "created": "2025-11-19T12:00:55.000Z",
+    "modified": "2025-11-19T12:00:55.000Z",
+    "name": "Akiras latest indicators from CISA report",
+    "description": "Akiras latest indicators from CISA report https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+    "pattern": "[indicator:value = '814310fb7a59f23e3e137ee6fee04fa1\r']",
+    "pattern_type": "stix",
+    "valid_from": "2025-11-19T12:00:55.000Z",
+    "valid_until": "2125-10-26T11:00:55.000Z",
+    "indicator_types": [
+      "Other"
+    ],
+    "kill_chain_phases": [
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "ResourceDevelopment"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Reconnaissance"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InitialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Execution"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Persistence"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "PrivilegeEscalation"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Exfiltration"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CommandAndControl"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Collection"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InhibitResponseFunction"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Evasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CredentialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "DefenseEvasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Impact"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "LateralMovement"
+      }
+    ],
+    "labels": [
+      "CISA",
+      "Akira",
+      "Ransomware"
+    ],
+    "confidence": 80,
+    "lang": "en",
+    "external_references": [],
+    "object_marking_refs": []
+  },
+  {
+    "type": "indicator",
+    "id": "indicator--39b8da0a-2ff9-424a-aa73-e4e2d82e90f1",
+    "spec_version": "2.1",
+    "created_by_ref": "identity--4a19d0d9-680e-4354-ba1c-6d9225ff5657",
+    "created": "2025-11-19T12:00:55.000Z",
+    "modified": "2025-11-19T12:00:55.000Z",
+    "name": "Akiras latest indicators from CISA report",
+    "description": "Akiras latest indicators from CISA report https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+    "pattern": "[indicator:value = '5961a99181df157b81d35a50eeb27f96577a2fa2\r']",
+    "pattern_type": "stix",
+    "valid_from": "2025-11-19T12:00:55.000Z",
+    "valid_until": "2125-10-26T11:00:55.000Z",
+    "indicator_types": [
+      "Other"
+    ],
+    "kill_chain_phases": [
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "ResourceDevelopment"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Reconnaissance"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InitialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Execution"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Persistence"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "PrivilegeEscalation"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Exfiltration"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CommandAndControl"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Collection"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InhibitResponseFunction"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Evasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CredentialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "DefenseEvasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Impact"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "LateralMovement"
+      }
+    ],
+    "labels": [
+      "CISA",
+      "Akira",
+      "Ransomware"
+    ],
+    "confidence": 80,
+    "lang": "en",
+    "external_references": [],
+    "object_marking_refs": []
+  },
+  {
+    "type": "indicator",
+    "id": "indicator--61153673-e4ea-469b-a10a-f8ed572c54b7",
+    "spec_version": "2.1",
+    "created_by_ref": "identity--4a19d0d9-680e-4354-ba1c-6d9225ff5657",
+    "created": "2025-11-19T12:00:55.000Z",
+    "modified": "2025-11-19T12:00:55.000Z",
+    "name": "Akiras latest indicators from CISA report",
+    "description": "Akiras latest indicators from CISA report https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+    "pattern": "[indicator:value = 'd5efaa22a74aab87d17f8666686b554e41fb389a\r']",
+    "pattern_type": "stix",
+    "valid_from": "2025-11-19T12:00:55.000Z",
+    "valid_until": "2125-10-26T11:00:55.000Z",
+    "indicator_types": [
+      "Other"
+    ],
+    "kill_chain_phases": [
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "ResourceDevelopment"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Reconnaissance"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InitialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Execution"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Persistence"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "PrivilegeEscalation"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Exfiltration"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CommandAndControl"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Collection"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InhibitResponseFunction"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Evasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CredentialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "DefenseEvasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Impact"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "LateralMovement"
+      }
+    ],
+    "labels": [
+      "CISA",
+      "Akira",
+      "Ransomware"
+    ],
+    "confidence": 80,
+    "lang": "en",
+    "external_references": [],
+    "object_marking_refs": []
+  },
+  {
+    "type": "indicator",
+    "id": "indicator--b33cf82d-6bf7-41cc-892d-1b28acbf883b",
+    "spec_version": "2.1",
+    "created_by_ref": "identity--4a19d0d9-680e-4354-ba1c-6d9225ff5657",
+    "created": "2025-11-19T12:00:55.000Z",
+    "modified": "2025-11-19T12:00:55.000Z",
+    "name": "Akiras latest indicators from CISA report",
+    "description": "Akiras latest indicators from CISA report https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+    "pattern": "[indicator:value = '08cf869a19c76ca718ba80ef73636e7bc38218b8\r']",
+    "pattern_type": "stix",
+    "valid_from": "2025-11-19T12:00:55.000Z",
+    "valid_until": "2125-10-26T11:00:55.000Z",
+    "indicator_types": [
+      "Other"
+    ],
+    "kill_chain_phases": [
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "ResourceDevelopment"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Reconnaissance"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InitialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Execution"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Persistence"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "PrivilegeEscalation"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Exfiltration"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CommandAndControl"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Collection"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InhibitResponseFunction"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Evasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CredentialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "DefenseEvasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Impact"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "LateralMovement"
+      }
+    ],
+    "labels": [
+      "CISA",
+      "Akira",
+      "Ransomware"
+    ],
+    "confidence": 80,
+    "lang": "en",
+    "external_references": [],
+    "object_marking_refs": []
+  },
+  {
+    "type": "indicator",
+    "id": "indicator--ed2ac1ab-1155-4962-924a-fc51c6a5e268",
+    "spec_version": "2.1",
+    "created_by_ref": "identity--4a19d0d9-680e-4354-ba1c-6d9225ff5657",
+    "created": "2025-11-19T12:00:55.000Z",
+    "modified": "2025-11-19T12:00:55.000Z",
+    "name": "Akiras latest indicators from CISA report",
+    "description": "Akiras latest indicators from CISA report https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+    "pattern": "[indicator:value = 'ef328f68c6d865ba4ef4223b5d8ee9efb5667420\r']",
+    "pattern_type": "stix",
+    "valid_from": "2025-11-19T12:00:55.000Z",
+    "valid_until": "2125-10-26T11:00:55.000Z",
+    "indicator_types": [
+      "Other"
+    ],
+    "kill_chain_phases": [
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "ResourceDevelopment"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Reconnaissance"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InitialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Execution"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Persistence"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "PrivilegeEscalation"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Exfiltration"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CommandAndControl"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Collection"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InhibitResponseFunction"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Evasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CredentialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "DefenseEvasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Impact"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "LateralMovement"
+      }
+    ],
+    "labels": [
+      "CISA",
+      "Akira",
+      "Ransomware"
+    ],
+    "confidence": 80,
+    "lang": "en",
+    "external_references": [],
+    "object_marking_refs": []
+  },
+  {
+    "type": "indicator",
+    "id": "indicator--3e45835d-e049-4e6a-866e-da160a763926",
+    "spec_version": "2.1",
+    "created_by_ref": "identity--4a19d0d9-680e-4354-ba1c-6d9225ff5657",
+    "created": "2025-11-19T12:00:55.000Z",
+    "modified": "2025-11-19T12:00:55.000Z",
+    "name": "Akiras latest indicators from CISA report",
+    "description": "Akiras latest indicators from CISA report https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+    "pattern": "[indicator:value = '0b5b31af5956158bfbd14f6cbf4f1bca23c5d16a40dbf3758f3289146c565f43\r']",
+    "pattern_type": "stix",
+    "valid_from": "2025-11-19T12:00:55.000Z",
+    "valid_until": "2125-10-26T11:00:55.000Z",
+    "indicator_types": [
+      "Other"
+    ],
+    "kill_chain_phases": [
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "ResourceDevelopment"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Reconnaissance"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InitialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Execution"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Persistence"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "PrivilegeEscalation"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Exfiltration"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CommandAndControl"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Collection"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InhibitResponseFunction"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Evasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CredentialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "DefenseEvasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Impact"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "LateralMovement"
+      }
+    ],
+    "labels": [
+      "CISA",
+      "Akira",
+      "Ransomware"
+    ],
+    "confidence": 80,
+    "lang": "en",
+    "external_references": [],
+    "object_marking_refs": []
+  },
+  {
+    "type": "indicator",
+    "id": "indicator--b558f2dc-b9aa-4e7e-8e2d-3b6cc40443db",
+    "spec_version": "2.1",
+    "created_by_ref": "identity--4a19d0d9-680e-4354-ba1c-6d9225ff5657",
+    "created": "2025-11-19T12:00:55.000Z",
+    "modified": "2025-11-19T12:00:55.000Z",
+    "name": "Akiras latest indicators from CISA report",
+    "description": "Akiras latest indicators from CISA report https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+    "pattern": "[indicator:value = '0d700ca5f6cc093de4abba9410480ee7a8870d5e8fe86c9ce103eec3872f225f\r']",
+    "pattern_type": "stix",
+    "valid_from": "2025-11-19T12:00:55.000Z",
+    "valid_until": "2125-10-26T11:00:55.000Z",
+    "indicator_types": [
+      "Other"
+    ],
+    "kill_chain_phases": [
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "ResourceDevelopment"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Reconnaissance"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InitialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Execution"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Persistence"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "PrivilegeEscalation"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Exfiltration"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CommandAndControl"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Collection"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InhibitResponseFunction"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Evasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CredentialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "DefenseEvasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Impact"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "LateralMovement"
+      }
+    ],
+    "labels": [
+      "CISA",
+      "Akira",
+      "Ransomware"
+    ],
+    "confidence": 80,
+    "lang": "en",
+    "external_references": [],
+    "object_marking_refs": []
+  },
+  {
+    "type": "indicator",
+    "id": "indicator--f2ed271b-a051-45bf-b126-60c6cbd8e44a",
+    "spec_version": "2.1",
+    "created_by_ref": "identity--4a19d0d9-680e-4354-ba1c-6d9225ff5657",
+    "created": "2025-11-19T12:00:55.000Z",
+    "modified": "2025-11-19T12:00:55.000Z",
+    "name": "Akiras latest indicators from CISA report",
+    "description": "Akiras latest indicators from CISA report https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+    "pattern": "[indicator:value = 'a2df5477cf924bd41241a3326060cc2f913aff2379858b148ddec455e4da67bc\r']",
+    "pattern_type": "stix",
+    "valid_from": "2025-11-19T12:00:55.000Z",
+    "valid_until": "2125-10-26T11:00:55.000Z",
+    "indicator_types": [
+      "Other"
+    ],
+    "kill_chain_phases": [
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "ResourceDevelopment"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Reconnaissance"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InitialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Execution"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Persistence"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "PrivilegeEscalation"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Exfiltration"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CommandAndControl"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Collection"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InhibitResponseFunction"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Evasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CredentialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "DefenseEvasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Impact"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "LateralMovement"
+      }
+    ],
+    "labels": [
+      "CISA",
+      "Akira",
+      "Ransomware"
+    ],
+    "confidence": 80,
+    "lang": "en",
+    "external_references": [],
+    "object_marking_refs": []
+  },
+  {
+    "type": "indicator",
+    "id": "indicator--968ba580-c867-4fb4-98d7-3e75e6d7f04b",
+    "spec_version": "2.1",
+    "created_by_ref": "identity--4a19d0d9-680e-4354-ba1c-6d9225ff5657",
+    "created": "2025-11-19T12:00:55.000Z",
+    "modified": "2025-11-19T12:00:55.000Z",
+    "name": "Akiras latest indicators from CISA report",
+    "description": "Akiras latest indicators from CISA report https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+    "pattern": "[indicator:value = '03aa12ac2884251aa24bf0ccd854047de403591a8537e6aba19e822807e06a45\r']",
+    "pattern_type": "stix",
+    "valid_from": "2025-11-19T12:00:55.000Z",
+    "valid_until": "2125-10-26T11:00:55.000Z",
+    "indicator_types": [
+      "Other"
+    ],
+    "kill_chain_phases": [
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "ResourceDevelopment"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Reconnaissance"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InitialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Execution"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Persistence"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "PrivilegeEscalation"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Exfiltration"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CommandAndControl"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Collection"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InhibitResponseFunction"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Evasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CredentialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "DefenseEvasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Impact"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "LateralMovement"
+      }
+    ],
+    "labels": [
+      "CISA",
+      "Akira",
+      "Ransomware"
+    ],
+    "confidence": 80,
+    "lang": "en",
+    "external_references": [],
+    "object_marking_refs": []
+  },
+  {
+    "type": "indicator",
+    "id": "indicator--17bbe598-b102-4421-8660-ffaebc3aa839",
+    "spec_version": "2.1",
+    "created_by_ref": "identity--4a19d0d9-680e-4354-ba1c-6d9225ff5657",
+    "created": "2025-11-19T12:00:55.000Z",
+    "modified": "2025-11-19T12:00:55.000Z",
+    "name": "Akiras latest indicators from CISA report",
+    "description": "Akiras latest indicators from CISA report https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+    "pattern": "[indicator:value = '2e88e55cc8ee364bf90e7a51671366efb3dac3e9468005b044164ba0f1624422\r']",
+    "pattern_type": "stix",
+    "valid_from": "2025-11-19T12:00:55.000Z",
+    "valid_until": "2125-10-26T11:00:55.000Z",
+    "indicator_types": [
+      "Other"
+    ],
+    "kill_chain_phases": [
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "ResourceDevelopment"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Reconnaissance"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InitialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Execution"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Persistence"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "PrivilegeEscalation"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Exfiltration"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CommandAndControl"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Collection"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InhibitResponseFunction"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Evasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CredentialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "DefenseEvasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Impact"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "LateralMovement"
+      }
+    ],
+    "labels": [
+      "CISA",
+      "Akira",
+      "Ransomware"
+    ],
+    "confidence": 80,
+    "lang": "en",
+    "external_references": [],
+    "object_marking_refs": []
+  },
+  {
+    "type": "indicator",
+    "id": "indicator--c1cd2b37-8e01-4483-81c2-0c08971010c1",
+    "spec_version": "2.1",
+    "created_by_ref": "identity--4a19d0d9-680e-4354-ba1c-6d9225ff5657",
+    "created": "2025-11-19T12:00:55.000Z",
+    "modified": "2025-11-19T12:00:55.000Z",
+    "name": "Akiras latest indicators from CISA report",
+    "description": "Akiras latest indicators from CISA report https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+    "pattern": "[indicator:value = '40221e1c2e0c09bc6104548ee847b6ec790413d6ece06ad675fff87e5b8dc1d5\r']",
+    "pattern_type": "stix",
+    "valid_from": "2025-11-19T12:00:55.000Z",
+    "valid_until": "2125-10-26T11:00:55.000Z",
+    "indicator_types": [
+      "Other"
+    ],
+    "kill_chain_phases": [
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "ResourceDevelopment"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Reconnaissance"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InitialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Execution"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Persistence"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "PrivilegeEscalation"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Exfiltration"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CommandAndControl"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Collection"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InhibitResponseFunction"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Evasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CredentialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "DefenseEvasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Impact"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "LateralMovement"
+      }
+    ],
+    "labels": [
+      "CISA",
+      "Akira",
+      "Ransomware"
+    ],
+    "confidence": 80,
+    "lang": "en",
+    "external_references": [],
+    "object_marking_refs": []
+  },
+  {
+    "type": "indicator",
+    "id": "indicator--5bd905f7-c923-485e-8ab4-c706e727e1f6",
+    "spec_version": "2.1",
+    "created_by_ref": "identity--4a19d0d9-680e-4354-ba1c-6d9225ff5657",
+    "created": "2025-11-19T12:00:55.000Z",
+    "modified": "2025-11-19T12:00:55.000Z",
+    "name": "Akiras latest indicators from CISA report",
+    "description": "Akiras latest indicators from CISA report https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+    "pattern": "[indicator:value = '5ea65e2bb9d245913ad69ce90e3bd9647eb16d992301145372565486c77568a2\r']",
+    "pattern_type": "stix",
+    "valid_from": "2025-11-19T12:00:55.000Z",
+    "valid_until": "2125-10-26T11:00:55.000Z",
+    "indicator_types": [
+      "Other"
+    ],
+    "kill_chain_phases": [
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "ResourceDevelopment"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Reconnaissance"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InitialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Execution"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Persistence"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "PrivilegeEscalation"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Exfiltration"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CommandAndControl"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Collection"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InhibitResponseFunction"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Evasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CredentialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "DefenseEvasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Impact"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "LateralMovement"
+      }
+    ],
+    "labels": [
+      "CISA",
+      "Akira",
+      "Ransomware"
+    ],
+    "confidence": 80,
+    "lang": "en",
+    "external_references": [],
+    "object_marking_refs": []
+  },
+  {
+    "type": "indicator",
+    "id": "indicator--755f0f1f-8167-4551-8338-4fdcabb9e455",
+    "spec_version": "2.1",
+    "created_by_ref": "identity--4a19d0d9-680e-4354-ba1c-6d9225ff5657",
+    "created": "2025-11-19T12:00:55.000Z",
+    "modified": "2025-11-19T12:00:55.000Z",
+    "name": "Akiras latest indicators from CISA report",
+    "description": "Akiras latest indicators from CISA report https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+    "pattern": "[indicator:value = '643061ac0b51f8c77f2ed202dc91afb9879f796ddd974489209d45f84f644562\r']",
+    "pattern_type": "stix",
+    "valid_from": "2025-11-19T12:00:55.000Z",
+    "valid_until": "2125-10-26T11:00:55.000Z",
+    "indicator_types": [
+      "Other"
+    ],
+    "kill_chain_phases": [
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "ResourceDevelopment"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Reconnaissance"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InitialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Execution"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Persistence"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "PrivilegeEscalation"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Exfiltration"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CommandAndControl"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Collection"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InhibitResponseFunction"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Evasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CredentialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "DefenseEvasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Impact"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "LateralMovement"
+      }
+    ],
+    "labels": [
+      "CISA",
+      "Akira",
+      "Ransomware"
+    ],
+    "confidence": 80,
+    "lang": "en",
+    "external_references": [],
+    "object_marking_refs": []
+  },
+  {
+    "type": "indicator",
+    "id": "indicator--be754eb3-d9e0-4dcc-983c-d45fd3b5f087",
+    "spec_version": "2.1",
+    "created_by_ref": "identity--4a19d0d9-680e-4354-ba1c-6d9225ff5657",
+    "created": "2025-11-19T12:00:55.000Z",
+    "modified": "2025-11-19T12:00:55.000Z",
+    "name": "Akiras latest indicators from CISA report",
+    "description": "Akiras latest indicators from CISA report https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+    "pattern": "[indicator:value = '6f9d50bab16b2532f4683eeb76bd25449d83bdd6c85bf0b05f716a4b49584f84\r']",
+    "pattern_type": "stix",
+    "valid_from": "2025-11-19T12:00:55.000Z",
+    "valid_until": "2125-10-26T11:00:55.000Z",
+    "indicator_types": [
+      "Other"
+    ],
+    "kill_chain_phases": [
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "ResourceDevelopment"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Reconnaissance"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InitialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Execution"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Persistence"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "PrivilegeEscalation"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Exfiltration"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CommandAndControl"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Collection"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InhibitResponseFunction"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Evasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CredentialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "DefenseEvasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Impact"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "LateralMovement"
+      }
+    ],
+    "labels": [
+      "CISA",
+      "Akira",
+      "Ransomware"
+    ],
+    "confidence": 80,
+    "lang": "en",
+    "external_references": [],
+    "object_marking_refs": []
+  },
+  {
+    "type": "indicator",
+    "id": "indicator--762d3f72-54ea-4b27-b07c-ad57df6ccdf8",
+    "spec_version": "2.1",
+    "created_by_ref": "identity--4a19d0d9-680e-4354-ba1c-6d9225ff5657",
+    "created": "2025-11-19T12:00:55.000Z",
+    "modified": "2025-11-19T12:00:55.000Z",
+    "name": "Akiras latest indicators from CISA report",
+    "description": "Akiras latest indicators from CISA report https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+    "pattern": "[indicator:value = 'fef09b0aa37cbdb6a8f60a6bd8b473a7e5bffdc7fd2e952444f781574abccf64\r']",
+    "pattern_type": "stix",
+    "valid_from": "2025-11-19T12:00:55.000Z",
+    "valid_until": "2125-10-26T11:00:55.000Z",
+    "indicator_types": [
+      "Other"
+    ],
+    "kill_chain_phases": [
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "ResourceDevelopment"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Reconnaissance"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InitialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Execution"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Persistence"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "PrivilegeEscalation"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Exfiltration"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CommandAndControl"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Collection"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InhibitResponseFunction"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Evasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CredentialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "DefenseEvasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Impact"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "LateralMovement"
+      }
+    ],
+    "labels": [
+      "CISA",
+      "Akira",
+      "Ransomware"
+    ],
+    "confidence": 80,
+    "lang": "en",
+    "external_references": [],
+    "object_marking_refs": []
+  },
+  {
+    "type": "indicator",
+    "id": "indicator--8db318cd-e924-4911-a9b9-79c5109bc654",
+    "spec_version": "2.1",
+    "created_by_ref": "identity--4a19d0d9-680e-4354-ba1c-6d9225ff5657",
+    "created": "2025-11-19T12:00:55.000Z",
+    "modified": "2025-11-19T12:00:55.000Z",
+    "name": "Akiras latest indicators from CISA report",
+    "description": "Akiras latest indicators from CISA report https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+    "pattern": "[indicator:value = 'e1321a4b2b104f31aceaf4b19c5559e40ba35b73a754d3ae13d8e90c53146c0f\r']",
+    "pattern_type": "stix",
+    "valid_from": "2025-11-19T12:00:55.000Z",
+    "valid_until": "2125-10-26T11:00:55.000Z",
+    "indicator_types": [
+      "Other"
+    ],
+    "kill_chain_phases": [
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "ResourceDevelopment"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Reconnaissance"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InitialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Execution"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Persistence"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "PrivilegeEscalation"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Exfiltration"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CommandAndControl"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Collection"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InhibitResponseFunction"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Evasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CredentialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "DefenseEvasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Impact"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "LateralMovement"
+      }
+    ],
+    "labels": [
+      "CISA",
+      "Akira",
+      "Ransomware"
+    ],
+    "confidence": 80,
+    "lang": "en",
+    "external_references": [],
+    "object_marking_refs": []
+  },
+  {
+    "type": "indicator",
+    "id": "indicator--5e51fef8-faca-45d2-a5c9-b26fd22294f7",
+    "spec_version": "2.1",
+    "created_by_ref": "identity--4a19d0d9-680e-4354-ba1c-6d9225ff5657",
+    "created": "2025-11-19T12:00:55.000Z",
+    "modified": "2025-11-19T12:00:55.000Z",
+    "name": "Akiras latest indicators from CISA report",
+    "description": "Akiras latest indicators from CISA report https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+    "pattern": "[indicator:value = '74f497088b49b745e6377b32ed5d9dfaef3c84c7c0bb50fabf30363ad2e0bfb1\r']",
+    "pattern_type": "stix",
+    "valid_from": "2025-11-19T12:00:55.000Z",
+    "valid_until": "2125-10-26T11:00:55.000Z",
+    "indicator_types": [
+      "Other"
+    ],
+    "kill_chain_phases": [
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "ResourceDevelopment"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Reconnaissance"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InitialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Execution"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Persistence"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "PrivilegeEscalation"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Exfiltration"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CommandAndControl"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Collection"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InhibitResponseFunction"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Evasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CredentialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "DefenseEvasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Impact"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "LateralMovement"
+      }
+    ],
+    "labels": [
+      "CISA",
+      "Akira",
+      "Ransomware"
+    ],
+    "confidence": 80,
+    "lang": "en",
+    "external_references": [],
+    "object_marking_refs": []
+  },
+  {
+    "type": "indicator",
+    "id": "indicator--1f5a28d2-316a-415b-a7ab-eedbfae9c928",
+    "spec_version": "2.1",
+    "created_by_ref": "identity--4a19d0d9-680e-4354-ba1c-6d9225ff5657",
+    "created": "2025-11-19T12:00:55.000Z",
+    "modified": "2025-11-19T12:00:55.000Z",
+    "name": "Akiras latest indicators from CISA report",
+    "description": "Akiras latest indicators from CISA report https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+    "pattern": "[indicator:value = '3d2b58ef6df743ce58669d7387ff94740ceb0122c4fc1c4ffd81af00e72e60a4\r']",
+    "pattern_type": "stix",
+    "valid_from": "2025-11-19T12:00:55.000Z",
+    "valid_until": "2125-10-26T11:00:55.000Z",
+    "indicator_types": [
+      "Other"
+    ],
+    "kill_chain_phases": [
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "ResourceDevelopment"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Reconnaissance"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InitialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Execution"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Persistence"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "PrivilegeEscalation"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Exfiltration"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CommandAndControl"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Collection"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "InhibitResponseFunction"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Evasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "CredentialAccess"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "DefenseEvasion"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "Impact"
+      },
+      {
+        "kill_chain_name": "mitre-attack",
+        "phase_name": "LateralMovement"
+      }
+    ],
+    "labels": [
+      "CISA",
+      "Akira",
+      "Ransomware"
+    ],
+    "confidence": 80,
+    "lang": "en",
+    "external_references": [],
+    "object_marking_refs": []
+  }
+]
