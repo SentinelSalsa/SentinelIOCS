@@ -1,0 +1,3497 @@
+[
+    {
+        "type": "identity",
+        "id": "identity--d18355ae-b227-4262-b917-47f5b80b1f78",
+        "name": "IOC Forge Pro User",
+        "identity_class": "organization",
+        "created": "2025-06-03T10:29:22.000Z",
+        "modified": "2025-06-03T10:29:22.000Z",
+        "sectors": [],
+        "contact_information": "",
+        "labels": [
+            "organization: Security Operations"
+        ],
+        "lang": "en",
+        "external_references": []
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--08bf951d-606d-4efc-8f14-eb00dfc7bf21",
+        "spec_version": "2.1",
+        "pattern": "[domain-name:value = 'stamppreewntnq.shop']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-06-03T10:29:22.000Z",
+        "modified": "2025-06-03T10:29:22.000Z",
+        "valid_from": "2025-06-03T10:29:22.000Z",
+        "valid_until": "2125-05-10T10:29:22.000Z",
+        "name": "DragonForce_threat_actors_details_ioc Indicators",
+        "description": "fdsffsdf",
+        "indicator_types": [
+            "Domain Name"
+        ],
+        "created_by_ref": "identity--d18355ae-b227-4262-b917-47f5b80b1f78",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "PrivilegeEscalation"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CommandAndControl"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Exfiltration"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Evasion"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InhibitResponseFunction"
+            }
+        ],
+        "revoked": false,
+        "labels": [
+            "fddfsfd.nsdffds"
+        ],
+        "confidence": 80,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--db55b621-64bf-42d4-ae7b-0e2e5f2f925f",
+        "spec_version": "2.1",
+        "pattern": "[ipv6-addr:value = '12288:FnvxplpMAX99S4B009MqyQMKNT7lVfAD8xr:FvxplpMAtU4Bl9MdQFT7lVIo9']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-06-03T10:29:22.000Z",
+        "modified": "2025-06-03T10:29:22.000Z",
+        "valid_from": "2025-06-03T10:29:22.000Z",
+        "valid_until": "2125-05-10T10:29:22.000Z",
+        "name": "DragonForce_threat_actors_details_ioc Indicators",
+        "description": "fdsffsdf",
+        "indicator_types": [
+            "IPv6 Address"
+        ],
+        "created_by_ref": "identity--d18355ae-b227-4262-b917-47f5b80b1f78",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "PrivilegeEscalation"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CommandAndControl"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Exfiltration"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Evasion"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InhibitResponseFunction"
+            }
+        ],
+        "revoked": false,
+        "labels": [
+            "fddfsfd.nsdffds"
+        ],
+        "confidence": 80,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--7f5978fe-bd59-4126-997c-4e31ed335bab",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'SHA-1' = 'ed7c78250305f2fef222612285622fbebdf77dfd']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-06-03T10:29:22.000Z",
+        "modified": "2025-06-03T10:29:22.000Z",
+        "valid_from": "2025-06-03T10:29:22.000Z",
+        "valid_until": "2125-05-10T10:29:22.000Z",
+        "name": "DragonForce_threat_actors_details_ioc Indicators",
+        "description": "fdsffsdf",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--d18355ae-b227-4262-b917-47f5b80b1f78",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "PrivilegeEscalation"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CommandAndControl"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Exfiltration"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Evasion"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InhibitResponseFunction"
+            }
+        ],
+        "revoked": false,
+        "labels": [
+            "fddfsfd.nsdffds"
+        ],
+        "confidence": 80,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--51b165eb-efb5-4a18-9674-504d94ffb4b7",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'SHA-256' = 'd06b5a200292fedcfb4d4aecac32387a2e5b5bb09aaab5199c56bab3031257d6']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-06-03T10:29:22.000Z",
+        "modified": "2025-06-03T10:29:22.000Z",
+        "valid_from": "2025-06-03T10:29:22.000Z",
+        "valid_until": "2125-05-10T10:29:22.000Z",
+        "name": "DragonForce_threat_actors_details_ioc Indicators",
+        "description": "fdsffsdf",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--d18355ae-b227-4262-b917-47f5b80b1f78",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "PrivilegeEscalation"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CommandAndControl"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Exfiltration"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Evasion"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InhibitResponseFunction"
+            }
+        ],
+        "revoked": false,
+        "labels": [
+            "fddfsfd.nsdffds"
+        ],
+        "confidence": 80,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--c611e5b4-c853-444d-a2dd-dc796b9fee96",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'MD5' = '3a514e164db30acdb3063eb79a23aa4f']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-06-03T10:29:22.000Z",
+        "modified": "2025-06-03T10:29:22.000Z",
+        "valid_from": "2025-06-03T10:29:22.000Z",
+        "valid_until": "2125-05-10T10:29:22.000Z",
+        "name": "DragonForce_threat_actors_details_ioc Indicators",
+        "description": "fdsffsdf",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--d18355ae-b227-4262-b917-47f5b80b1f78",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "PrivilegeEscalation"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CommandAndControl"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Exfiltration"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Evasion"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InhibitResponseFunction"
+            }
+        ],
+        "revoked": false,
+        "labels": [
+            "fddfsfd.nsdffds"
+        ],
+        "confidence": 80,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--5d98b44d-f262-40cb-9134-f026313a971f",
+        "spec_version": "2.1",
+        "pattern": "[ipv6-addr:value = '12288:FnvxplpMAX99S4B009MqyQMKNT7ydfAD8xE:FvxplpMAtU4Bl9MdQFT7ydIoS']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-06-03T10:29:22.000Z",
+        "modified": "2025-06-03T10:29:22.000Z",
+        "valid_from": "2025-06-03T10:29:22.000Z",
+        "valid_until": "2125-05-10T10:29:22.000Z",
+        "name": "DragonForce_threat_actors_details_ioc Indicators",
+        "description": "fdsffsdf",
+        "indicator_types": [
+            "IPv6 Address"
+        ],
+        "created_by_ref": "identity--d18355ae-b227-4262-b917-47f5b80b1f78",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "PrivilegeEscalation"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CommandAndControl"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Exfiltration"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Evasion"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InhibitResponseFunction"
+            }
+        ],
+        "revoked": false,
+        "labels": [
+            "fddfsfd.nsdffds"
+        ],
+        "confidence": 80,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--72964d48-4984-4b19-8606-19f59749e7c6",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'SHA-1' = '0b812c1b1ae8299fcaf9ac192587eeed76f5abe4']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-06-03T10:29:22.000Z",
+        "modified": "2025-06-03T10:29:22.000Z",
+        "valid_from": "2025-06-03T10:29:22.000Z",
+        "valid_until": "2125-05-10T10:29:22.000Z",
+        "name": "DragonForce_threat_actors_details_ioc Indicators",
+        "description": "fdsffsdf",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--d18355ae-b227-4262-b917-47f5b80b1f78",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "PrivilegeEscalation"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CommandAndControl"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Exfiltration"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Evasion"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InhibitResponseFunction"
+            }
+        ],
+        "revoked": false,
+        "labels": [
+            "fddfsfd.nsdffds"
+        ],
+        "confidence": 80,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--96e70128-50e9-4163-b823-4a4c0d0abc45",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'SHA-256' = '80e3a04fa68be799b3c91737e1918f8394b250603a231a251524244e4d7f77d9']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-06-03T10:29:22.000Z",
+        "modified": "2025-06-03T10:29:22.000Z",
+        "valid_from": "2025-06-03T10:29:22.000Z",
+        "valid_until": "2125-05-10T10:29:22.000Z",
+        "name": "DragonForce_threat_actors_details_ioc Indicators",
+        "description": "fdsffsdf",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--d18355ae-b227-4262-b917-47f5b80b1f78",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "PrivilegeEscalation"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CommandAndControl"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Exfiltration"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Evasion"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InhibitResponseFunction"
+            }
+        ],
+        "revoked": false,
+        "labels": [
+            "fddfsfd.nsdffds"
+        ],
+        "confidence": 80,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--41b27bb6-e3c1-4486-a25d-0eb5bd64b716",
+        "spec_version": "2.1",
+        "pattern": "[ipv6-addr:value = '12288:FnvxplpMAX99S4B009MqyQMKNT7RrfAD8xE:FvxplpMAtU4Bl9MdQFT7RrIoS']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-06-03T10:29:22.000Z",
+        "modified": "2025-06-03T10:29:22.000Z",
+        "valid_from": "2025-06-03T10:29:22.000Z",
+        "valid_until": "2125-05-10T10:29:22.000Z",
+        "name": "DragonForce_threat_actors_details_ioc Indicators",
+        "description": "fdsffsdf",
+        "indicator_types": [
+            "IPv6 Address"
+        ],
+        "created_by_ref": "identity--d18355ae-b227-4262-b917-47f5b80b1f78",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "PrivilegeEscalation"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CommandAndControl"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Exfiltration"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Evasion"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InhibitResponseFunction"
+            }
+        ],
+        "revoked": false,
+        "labels": [
+            "fddfsfd.nsdffds"
+        ],
+        "confidence": 80,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--32b391b1-3631-4576-b039-5c611d6d98eb",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'SHA-1' = '1a81b753c9a8a026a1c99de7c920c063560ca165']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-06-03T10:29:22.000Z",
+        "modified": "2025-06-03T10:29:22.000Z",
+        "valid_from": "2025-06-03T10:29:22.000Z",
+        "valid_until": "2125-05-10T10:29:22.000Z",
+        "name": "DragonForce_threat_actors_details_ioc Indicators",
+        "description": "fdsffsdf",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--d18355ae-b227-4262-b917-47f5b80b1f78",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "PrivilegeEscalation"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CommandAndControl"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Exfiltration"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Evasion"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InhibitResponseFunction"
+            }
+        ],
+        "revoked": false,
+        "labels": [
+            "fddfsfd.nsdffds"
+        ],
+        "confidence": 80,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--cdbafacd-cce1-48c4-9043-cfdf59e30f49",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'SHA-256' = 'b714cb02cfd5d67e1502b45242636ee6b35c1b609072d3082378c50a177df15d']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-06-03T10:29:22.000Z",
+        "modified": "2025-06-03T10:29:22.000Z",
+        "valid_from": "2025-06-03T10:29:22.000Z",
+        "valid_until": "2125-05-10T10:29:22.000Z",
+        "name": "DragonForce_threat_actors_details_ioc Indicators",
+        "description": "fdsffsdf",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--d18355ae-b227-4262-b917-47f5b80b1f78",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "PrivilegeEscalation"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CommandAndControl"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Exfiltration"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Evasion"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InhibitResponseFunction"
+            }
+        ],
+        "revoked": false,
+        "labels": [
+            "fddfsfd.nsdffds"
+        ],
+        "confidence": 80,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--f191d24c-8310-4d78-bf55-7a87451e0ee1",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'MD5' = '99be93aa4c34b39fedcd37663c34511f']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-06-03T10:29:22.000Z",
+        "modified": "2025-06-03T10:29:22.000Z",
+        "valid_from": "2025-06-03T10:29:22.000Z",
+        "valid_until": "2125-05-10T10:29:22.000Z",
+        "name": "DragonForce_threat_actors_details_ioc Indicators",
+        "description": "fdsffsdf",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--d18355ae-b227-4262-b917-47f5b80b1f78",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "PrivilegeEscalation"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CommandAndControl"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Exfiltration"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Evasion"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InhibitResponseFunction"
+            }
+        ],
+        "revoked": false,
+        "labels": [
+            "fddfsfd.nsdffds"
+        ],
+        "confidence": 80,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--7c9f9976-dd1c-41d3-97b6-bd6259ea5c21",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'MD5' = 'f0410358a0d9dbd0dff3113d9c744ca7']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-06-03T10:29:22.000Z",
+        "modified": "2025-06-03T10:29:22.000Z",
+        "valid_from": "2025-06-03T10:29:22.000Z",
+        "valid_until": "2125-05-10T10:29:22.000Z",
+        "name": "DragonForce_threat_actors_details_ioc Indicators",
+        "description": "fdsffsdf",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--d18355ae-b227-4262-b917-47f5b80b1f78",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "PrivilegeEscalation"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CommandAndControl"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Exfiltration"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Evasion"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InhibitResponseFunction"
+            }
+        ],
+        "revoked": false,
+        "labels": [
+            "fddfsfd.nsdffds"
+        ],
+        "confidence": 80,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--66ac4394-a2ae-4569-a25f-f29d7a89c47d",
+        "spec_version": "2.1",
+        "pattern": "[domain-name:value = 'rrrbaygxp3f2qtgvfqk6ffhdrm24ucxvbr6mhxsga4faefqyd77w7tqd.onion']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-06-03T10:29:22.000Z",
+        "modified": "2025-06-03T10:29:22.000Z",
+        "valid_from": "2025-06-03T10:29:22.000Z",
+        "valid_until": "2125-05-10T10:29:22.000Z",
+        "name": "DragonForce_threat_actors_details_ioc Indicators",
+        "description": "fdsffsdf",
+        "indicator_types": [
+            "Domain Name"
+        ],
+        "created_by_ref": "identity--d18355ae-b227-4262-b917-47f5b80b1f78",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "PrivilegeEscalation"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CommandAndControl"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Exfiltration"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Evasion"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InhibitResponseFunction"
+            }
+        ],
+        "revoked": false,
+        "labels": [
+            "fddfsfd.nsdffds"
+        ],
+        "confidence": 80,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--3a2870a6-e7eb-484e-a314-1772c8b8a829",
+        "spec_version": "2.1",
+        "pattern": "[domain-name:value = 'rrrbayguhgtgxrdg5myxkdc2cxei25u6brknfqkl3a35nse7f2arblyd.onion']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-06-03T10:29:22.000Z",
+        "modified": "2025-06-03T10:29:22.000Z",
+        "valid_from": "2025-06-03T10:29:22.000Z",
+        "valid_until": "2125-05-10T10:29:22.000Z",
+        "name": "DragonForce_threat_actors_details_ioc Indicators",
+        "description": "fdsffsdf",
+        "indicator_types": [
+            "Domain Name"
+        ],
+        "created_by_ref": "identity--d18355ae-b227-4262-b917-47f5b80b1f78",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "PrivilegeEscalation"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CommandAndControl"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Exfiltration"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Evasion"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InhibitResponseFunction"
+            }
+        ],
+        "revoked": false,
+        "labels": [
+            "fddfsfd.nsdffds"
+        ],
+        "confidence": 80,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--252b9690-b6aa-493c-bd5d-1c9f3cbe1a03",
+        "spec_version": "2.1",
+        "pattern": "[domain-name:value = 'rrrbay3nf4c2wxmhprc6eotjlpqkeowfuobodic4x4nzqtosx3ebirid.onion']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-06-03T10:29:22.000Z",
+        "modified": "2025-06-03T10:29:22.000Z",
+        "valid_from": "2025-06-03T10:29:22.000Z",
+        "valid_until": "2125-05-10T10:29:22.000Z",
+        "name": "DragonForce_threat_actors_details_ioc Indicators",
+        "description": "fdsffsdf",
+        "indicator_types": [
+            "Domain Name"
+        ],
+        "created_by_ref": "identity--d18355ae-b227-4262-b917-47f5b80b1f78",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "PrivilegeEscalation"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CommandAndControl"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Exfiltration"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Evasion"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InhibitResponseFunction"
+            }
+        ],
+        "revoked": false,
+        "labels": [
+            "fddfsfd.nsdffds"
+        ],
+        "confidence": 80,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--182c6603-ea25-4725-8fc1-553af157c400",
+        "spec_version": "2.1",
+        "pattern": "[domain-name:value = '3pktcrcbmssvrnwe5skburdwe2h3v6ibdnn5kbjqihsg6eu6s6b7ryqd.onion']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-06-03T10:29:22.000Z",
+        "modified": "2025-06-03T10:29:22.000Z",
+        "valid_from": "2025-06-03T10:29:22.000Z",
+        "valid_until": "2125-05-10T10:29:22.000Z",
+        "name": "DragonForce_threat_actors_details_ioc Indicators",
+        "description": "fdsffsdf",
+        "indicator_types": [
+            "Domain Name"
+        ],
+        "created_by_ref": "identity--d18355ae-b227-4262-b917-47f5b80b1f78",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "PrivilegeEscalation"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CommandAndControl"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Exfiltration"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Evasion"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InhibitResponseFunction"
+            }
+        ],
+        "revoked": false,
+        "labels": [
+            "fddfsfd.nsdffds"
+        ],
+        "confidence": 80,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--f4a45057-a103-491b-bb6e-abb688e1d9ca",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'SHA-256' = 'd67a475f72ca65fd1ac5fd3be2f1cce2db78ba074f54dc4c4738d374d0eb19c7']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-06-03T10:29:22.000Z",
+        "modified": "2025-06-03T10:29:22.000Z",
+        "valid_from": "2025-06-03T10:29:22.000Z",
+        "valid_until": "2125-05-10T10:29:22.000Z",
+        "name": "DragonForce_threat_actors_details_ioc Indicators",
+        "description": "fdsffsdf",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--d18355ae-b227-4262-b917-47f5b80b1f78",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "PrivilegeEscalation"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CommandAndControl"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Exfiltration"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Evasion"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InhibitResponseFunction"
+            }
+        ],
+        "revoked": false,
+        "labels": [
+            "fddfsfd.nsdffds"
+        ],
+        "confidence": 80,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--fa60cac1-d881-401d-a86f-4b085e8b7e4d",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'SHA-256' = 'd626eb0565fac677fdc13fb0555967dc31e600c74fbbd110b744f8e3a59dd3f9']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-06-03T10:29:22.000Z",
+        "modified": "2025-06-03T10:29:22.000Z",
+        "valid_from": "2025-06-03T10:29:22.000Z",
+        "valid_until": "2125-05-10T10:29:22.000Z",
+        "name": "DragonForce_threat_actors_details_ioc Indicators",
+        "description": "fdsffsdf",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--d18355ae-b227-4262-b917-47f5b80b1f78",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "PrivilegeEscalation"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CommandAndControl"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Exfiltration"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Evasion"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InhibitResponseFunction"
+            }
+        ],
+        "revoked": false,
+        "labels": [
+            "fddfsfd.nsdffds"
+        ],
+        "confidence": 80,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--eb2f240c-5de5-4b05-9cf7-63af0e864fd9",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'SHA-256' = 'd4de7d7990114c51056afeedb827d880549d5761aac6bdef0f14cb17c25103b3']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-06-03T10:29:22.000Z",
+        "modified": "2025-06-03T10:29:22.000Z",
+        "valid_from": "2025-06-03T10:29:22.000Z",
+        "valid_until": "2125-05-10T10:29:22.000Z",
+        "name": "DragonForce_threat_actors_details_ioc Indicators",
+        "description": "fdsffsdf",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--d18355ae-b227-4262-b917-47f5b80b1f78",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "PrivilegeEscalation"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CommandAndControl"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Exfiltration"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Evasion"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InhibitResponseFunction"
+            }
+        ],
+        "revoked": false,
+        "labels": [
+            "fddfsfd.nsdffds"
+        ],
+        "confidence": 80,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--5f38a341-60f1-447f-a1aa-ea293a3f8361",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'SHA-256' = 'c844d02c91d5e6dc293de80085ad2f69b5c44bc46ec9fdaa4e3efbda062c871c']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-06-03T10:29:22.000Z",
+        "modified": "2025-06-03T10:29:22.000Z",
+        "valid_from": "2025-06-03T10:29:22.000Z",
+        "valid_until": "2125-05-10T10:29:22.000Z",
+        "name": "DragonForce_threat_actors_details_ioc Indicators",
+        "description": "fdsffsdf",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--d18355ae-b227-4262-b917-47f5b80b1f78",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "PrivilegeEscalation"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CommandAndControl"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Exfiltration"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Evasion"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InhibitResponseFunction"
+            }
+        ],
+        "revoked": false,
+        "labels": [
+            "fddfsfd.nsdffds"
+        ],
+        "confidence": 80,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--d442d21c-6119-4566-91c3-987d1e298445",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'SHA-256' = 'ba1be94550898eedb10eb73cb5383a2d1050e96ec4df8e0bf680d3e76a9e2429']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-06-03T10:29:22.000Z",
+        "modified": "2025-06-03T10:29:22.000Z",
+        "valid_from": "2025-06-03T10:29:22.000Z",
+        "valid_until": "2125-05-10T10:29:22.000Z",
+        "name": "DragonForce_threat_actors_details_ioc Indicators",
+        "description": "fdsffsdf",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--d18355ae-b227-4262-b917-47f5b80b1f78",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "PrivilegeEscalation"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CommandAndControl"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Exfiltration"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Evasion"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InhibitResponseFunction"
+            }
+        ],
+        "revoked": false,
+        "labels": [
+            "fddfsfd.nsdffds"
+        ],
+        "confidence": 80,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--20861054-6ec0-4d08-88e9-c5a2f922d6e7",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'SHA-256' = 'b9bba02d18bacc4bc8d9e4f70657d381568075590cc9d0e7590327d854224b32']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-06-03T10:29:22.000Z",
+        "modified": "2025-06-03T10:29:22.000Z",
+        "valid_from": "2025-06-03T10:29:22.000Z",
+        "valid_until": "2125-05-10T10:29:22.000Z",
+        "name": "DragonForce_threat_actors_details_ioc Indicators",
+        "description": "fdsffsdf",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--d18355ae-b227-4262-b917-47f5b80b1f78",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "PrivilegeEscalation"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CommandAndControl"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Exfiltration"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Evasion"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InhibitResponseFunction"
+            }
+        ],
+        "revoked": false,
+        "labels": [
+            "fddfsfd.nsdffds"
+        ],
+        "confidence": 80,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--dda138c2-52af-4ce8-9b7c-8f3699a2cf40",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'SHA-256' = 'a31f222fc283227f5e7988d1ad9c0aecd66d58bb7b4d8518ae23e110308dbf91']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-06-03T10:29:22.000Z",
+        "modified": "2025-06-03T10:29:22.000Z",
+        "valid_from": "2025-06-03T10:29:22.000Z",
+        "valid_until": "2125-05-10T10:29:22.000Z",
+        "name": "DragonForce_threat_actors_details_ioc Indicators",
+        "description": "fdsffsdf",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--d18355ae-b227-4262-b917-47f5b80b1f78",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "PrivilegeEscalation"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CommandAndControl"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Exfiltration"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Evasion"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InhibitResponseFunction"
+            }
+        ],
+        "revoked": false,
+        "labels": [
+            "fddfsfd.nsdffds"
+        ],
+        "confidence": 80,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--3f681b90-3b31-466b-843d-164df895d3b4",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'SHA-256' = '82b336cd120ef07d8df5a3e3fa082bcca8b5c0a3481fae78cb5dd29072979f69']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-06-03T10:29:22.000Z",
+        "modified": "2025-06-03T10:29:22.000Z",
+        "valid_from": "2025-06-03T10:29:22.000Z",
+        "valid_until": "2125-05-10T10:29:22.000Z",
+        "name": "DragonForce_threat_actors_details_ioc Indicators",
+        "description": "fdsffsdf",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--d18355ae-b227-4262-b917-47f5b80b1f78",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "PrivilegeEscalation"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CommandAndControl"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Exfiltration"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Evasion"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InhibitResponseFunction"
+            }
+        ],
+        "revoked": false,
+        "labels": [
+            "fddfsfd.nsdffds"
+        ],
+        "confidence": 80,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--721bce18-aa5b-43e9-a7b2-4da4167c680e",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'SHA-256' = '822ceefb12b030f2ff28dcda6776addda77b041dbb48d2e3a8c305721f4cc8ef']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-06-03T10:29:22.000Z",
+        "modified": "2025-06-03T10:29:22.000Z",
+        "valid_from": "2025-06-03T10:29:22.000Z",
+        "valid_until": "2125-05-10T10:29:22.000Z",
+        "name": "DragonForce_threat_actors_details_ioc Indicators",
+        "description": "fdsffsdf",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--d18355ae-b227-4262-b917-47f5b80b1f78",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "PrivilegeEscalation"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CommandAndControl"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Exfiltration"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Evasion"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InhibitResponseFunction"
+            }
+        ],
+        "revoked": false,
+        "labels": [
+            "fddfsfd.nsdffds"
+        ],
+        "confidence": 80,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--9e3abd94-01ea-4e34-8d83-aff1f2eebf18",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'SHA-256' = '188bc243cc42f8ffa4c1ed02aad5a76c9000e3d58104f45fe71af66536a274da']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-06-03T10:29:22.000Z",
+        "modified": "2025-06-03T10:29:22.000Z",
+        "valid_from": "2025-06-03T10:29:22.000Z",
+        "valid_until": "2125-05-10T10:29:22.000Z",
+        "name": "DragonForce_threat_actors_details_ioc Indicators",
+        "description": "fdsffsdf",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--d18355ae-b227-4262-b917-47f5b80b1f78",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "PrivilegeEscalation"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CommandAndControl"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Exfiltration"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Evasion"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InhibitResponseFunction"
+            }
+        ],
+        "revoked": false,
+        "labels": [
+            "fddfsfd.nsdffds"
+        ],
+        "confidence": 80,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--cd8ff6e3-75a6-4b91-a260-a42f2f3d7220",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'SHA-256' = '1250ba6f25fd60077f698a2617c15f89d58c1867339bfd9ee8ab19ce9943304b']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-06-03T10:29:22.000Z",
+        "modified": "2025-06-03T10:29:22.000Z",
+        "valid_from": "2025-06-03T10:29:22.000Z",
+        "valid_until": "2125-05-10T10:29:22.000Z",
+        "name": "DragonForce_threat_actors_details_ioc Indicators",
+        "description": "fdsffsdf",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--d18355ae-b227-4262-b917-47f5b80b1f78",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "PrivilegeEscalation"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CommandAndControl"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Exfiltration"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Evasion"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InhibitResponseFunction"
+            }
+        ],
+        "revoked": false,
+        "labels": [
+            "fddfsfd.nsdffds"
+        ],
+        "confidence": 80,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--30f08e7c-192e-4d6a-876e-77d949d8a697",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'SHA-1' = 'fc75a3800d8c2fa49b27b632dc9d7fb611b65201']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-06-03T10:29:22.000Z",
+        "modified": "2025-06-03T10:29:22.000Z",
+        "valid_from": "2025-06-03T10:29:22.000Z",
+        "valid_until": "2125-05-10T10:29:22.000Z",
+        "name": "DragonForce_threat_actors_details_ioc Indicators",
+        "description": "fdsffsdf",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--d18355ae-b227-4262-b917-47f5b80b1f78",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "PrivilegeEscalation"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CommandAndControl"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Exfiltration"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Evasion"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InhibitResponseFunction"
+            }
+        ],
+        "revoked": false,
+        "labels": [
+            "fddfsfd.nsdffds"
+        ],
+        "confidence": 80,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--822ccfba-5f44-4829-9fe7-bc9c24dd5f11",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'SHA-1' = 'f710573c1d18355ecdf3131aa69a6dfe8e674758']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-06-03T10:29:22.000Z",
+        "modified": "2025-06-03T10:29:22.000Z",
+        "valid_from": "2025-06-03T10:29:22.000Z",
+        "valid_until": "2125-05-10T10:29:22.000Z",
+        "name": "DragonForce_threat_actors_details_ioc Indicators",
+        "description": "fdsffsdf",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--d18355ae-b227-4262-b917-47f5b80b1f78",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "PrivilegeEscalation"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CommandAndControl"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Exfiltration"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Evasion"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InhibitResponseFunction"
+            }
+        ],
+        "revoked": false,
+        "labels": [
+            "fddfsfd.nsdffds"
+        ],
+        "confidence": 80,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--099b1651-0bb7-43f7-9b84-e8ac74af3fd3",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'SHA-1' = 'eada05f4bfd4876c57c24cd4b41f7a40ea97274c']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-06-03T10:29:22.000Z",
+        "modified": "2025-06-03T10:29:22.000Z",
+        "valid_from": "2025-06-03T10:29:22.000Z",
+        "valid_until": "2125-05-10T10:29:22.000Z",
+        "name": "DragonForce_threat_actors_details_ioc Indicators",
+        "description": "fdsffsdf",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--d18355ae-b227-4262-b917-47f5b80b1f78",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "PrivilegeEscalation"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CommandAndControl"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Exfiltration"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Evasion"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InhibitResponseFunction"
+            }
+        ],
+        "revoked": false,
+        "labels": [
+            "fddfsfd.nsdffds"
+        ],
+        "confidence": 80,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--431863e8-bcdf-449a-99a8-768d2149bab3",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'SHA-1' = 'e1c0482b43fe57c93535119d085596cd2d90560a']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-06-03T10:29:22.000Z",
+        "modified": "2025-06-03T10:29:22.000Z",
+        "valid_from": "2025-06-03T10:29:22.000Z",
+        "valid_until": "2125-05-10T10:29:22.000Z",
+        "name": "DragonForce_threat_actors_details_ioc Indicators",
+        "description": "fdsffsdf",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--d18355ae-b227-4262-b917-47f5b80b1f78",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "PrivilegeEscalation"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CommandAndControl"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Exfiltration"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Evasion"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InhibitResponseFunction"
+            }
+        ],
+        "revoked": false,
+        "labels": [
+            "fddfsfd.nsdffds"
+        ],
+        "confidence": 80,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--d6e834e5-e64b-48ab-8a3e-6069c78c1f79",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'SHA-1' = 'e164bbaf848fa5d46fa42f62402a1c55330ef562']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-06-03T10:29:22.000Z",
+        "modified": "2025-06-03T10:29:22.000Z",
+        "valid_from": "2025-06-03T10:29:22.000Z",
+        "valid_until": "2125-05-10T10:29:22.000Z",
+        "name": "DragonForce_threat_actors_details_ioc Indicators",
+        "description": "fdsffsdf",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--d18355ae-b227-4262-b917-47f5b80b1f78",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "PrivilegeEscalation"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CommandAndControl"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Exfiltration"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Evasion"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InhibitResponseFunction"
+            }
+        ],
+        "revoked": false,
+        "labels": [
+            "fddfsfd.nsdffds"
+        ],
+        "confidence": 80,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--a34325c1-2394-470c-a415-cbfc9786b591",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'SHA-1' = 'c98e394a3e33c616d251d426fc986229ede57b0f']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-06-03T10:29:22.000Z",
+        "modified": "2025-06-03T10:29:22.000Z",
+        "valid_from": "2025-06-03T10:29:22.000Z",
+        "valid_until": "2125-05-10T10:29:22.000Z",
+        "name": "DragonForce_threat_actors_details_ioc Indicators",
+        "description": "fdsffsdf",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--d18355ae-b227-4262-b917-47f5b80b1f78",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "PrivilegeEscalation"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CommandAndControl"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Exfiltration"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Evasion"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InhibitResponseFunction"
+            }
+        ],
+        "revoked": false,
+        "labels": [
+            "fddfsfd.nsdffds"
+        ],
+        "confidence": 80,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--f741f98e-6491-4a2a-b564-c3b754f35649",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'SHA-1' = 'bcfac98117d9a52a3196a7bd041b49d5ff0cfb8c']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-06-03T10:29:22.000Z",
+        "modified": "2025-06-03T10:29:22.000Z",
+        "valid_from": "2025-06-03T10:29:22.000Z",
+        "valid_until": "2125-05-10T10:29:22.000Z",
+        "name": "DragonForce_threat_actors_details_ioc Indicators",
+        "description": "fdsffsdf",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--d18355ae-b227-4262-b917-47f5b80b1f78",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "PrivilegeEscalation"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CommandAndControl"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Exfiltration"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Evasion"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InhibitResponseFunction"
+            }
+        ],
+        "revoked": false,
+        "labels": [
+            "fddfsfd.nsdffds"
+        ],
+        "confidence": 80,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--d0fbd556-5356-4bdb-9b32-cb84a969558a",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'SHA-1' = 'b571e60a6d2d9ab78da1c14327c0d26f34117daa']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-06-03T10:29:22.000Z",
+        "modified": "2025-06-03T10:29:22.000Z",
+        "valid_from": "2025-06-03T10:29:22.000Z",
+        "valid_until": "2125-05-10T10:29:22.000Z",
+        "name": "DragonForce_threat_actors_details_ioc Indicators",
+        "description": "fdsffsdf",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--d18355ae-b227-4262-b917-47f5b80b1f78",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "PrivilegeEscalation"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CommandAndControl"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Exfiltration"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Evasion"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InhibitResponseFunction"
+            }
+        ],
+        "revoked": false,
+        "labels": [
+            "fddfsfd.nsdffds"
+        ],
+        "confidence": 80,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--1b2e2190-2459-4935-8368-bd4cc5412d48",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'SHA-1' = 'b3e0785dbe60369634ac6a6b5d241849c1f929de']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-06-03T10:29:22.000Z",
+        "modified": "2025-06-03T10:29:22.000Z",
+        "valid_from": "2025-06-03T10:29:22.000Z",
+        "valid_until": "2125-05-10T10:29:22.000Z",
+        "name": "DragonForce_threat_actors_details_ioc Indicators",
+        "description": "fdsffsdf",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--d18355ae-b227-4262-b917-47f5b80b1f78",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "PrivilegeEscalation"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CommandAndControl"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Exfiltration"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Evasion"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InhibitResponseFunction"
+            }
+        ],
+        "revoked": false,
+        "labels": [
+            "fddfsfd.nsdffds"
+        ],
+        "confidence": 80,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--db1ccfc1-b56f-440d-9442-f3ffe161f1ee",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'SHA-1' = 'ae2967d021890a6a2a8c403a569b9e6d56e03abd']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-06-03T10:29:22.000Z",
+        "modified": "2025-06-03T10:29:22.000Z",
+        "valid_from": "2025-06-03T10:29:22.000Z",
+        "valid_until": "2125-05-10T10:29:22.000Z",
+        "name": "DragonForce_threat_actors_details_ioc Indicators",
+        "description": "fdsffsdf",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--d18355ae-b227-4262-b917-47f5b80b1f78",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "PrivilegeEscalation"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CommandAndControl"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Exfiltration"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Evasion"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InhibitResponseFunction"
+            }
+        ],
+        "revoked": false,
+        "labels": [
+            "fddfsfd.nsdffds"
+        ],
+        "confidence": 80,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--2dced795-0731-4856-b998-4939c4c8bc67",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'SHA-1' = 'a4bdd6cef0ed43a4d08f373edc8e146bb15ca0f9']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-06-03T10:29:22.000Z",
+        "modified": "2025-06-03T10:29:22.000Z",
+        "valid_from": "2025-06-03T10:29:22.000Z",
+        "valid_until": "2125-05-10T10:29:22.000Z",
+        "name": "DragonForce_threat_actors_details_ioc Indicators",
+        "description": "fdsffsdf",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--d18355ae-b227-4262-b917-47f5b80b1f78",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "PrivilegeEscalation"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CommandAndControl"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Exfiltration"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Evasion"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InhibitResponseFunction"
+            }
+        ],
+        "revoked": false,
+        "labels": [
+            "fddfsfd.nsdffds"
+        ],
+        "confidence": 80,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--c607c617-a7ec-4757-95ee-aef0314e9638",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'SHA-1' = '81185dd73f2e042a947a1bf77f429de08778b6e9']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-06-03T10:29:22.000Z",
+        "modified": "2025-06-03T10:29:22.000Z",
+        "valid_from": "2025-06-03T10:29:22.000Z",
+        "valid_until": "2125-05-10T10:29:22.000Z",
+        "name": "DragonForce_threat_actors_details_ioc Indicators",
+        "description": "fdsffsdf",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--d18355ae-b227-4262-b917-47f5b80b1f78",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "PrivilegeEscalation"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CommandAndControl"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Exfiltration"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Evasion"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InhibitResponseFunction"
+            }
+        ],
+        "revoked": false,
+        "labels": [
+            "fddfsfd.nsdffds"
+        ],
+        "confidence": 80,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--600fb111-35a7-4bd2-8410-6e4e0948b968",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'SHA-1' = '7db52047c72529d27a39f2e1a9ffb8f1f0ddc774']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-06-03T10:29:22.000Z",
+        "modified": "2025-06-03T10:29:22.000Z",
+        "valid_from": "2025-06-03T10:29:22.000Z",
+        "valid_until": "2125-05-10T10:29:22.000Z",
+        "name": "DragonForce_threat_actors_details_ioc Indicators",
+        "description": "fdsffsdf",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--d18355ae-b227-4262-b917-47f5b80b1f78",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "PrivilegeEscalation"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CommandAndControl"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Exfiltration"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Evasion"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InhibitResponseFunction"
+            }
+        ],
+        "revoked": false,
+        "labels": [
+            "fddfsfd.nsdffds"
+        ],
+        "confidence": 80,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--6e987226-37a3-409f-b89d-69313cc19a9f",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'SHA-1' = '577b110a8bfa6526b21bb728e14bd6494dc67f71']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-06-03T10:29:22.000Z",
+        "modified": "2025-06-03T10:29:22.000Z",
+        "valid_from": "2025-06-03T10:29:22.000Z",
+        "valid_until": "2125-05-10T10:29:22.000Z",
+        "name": "DragonForce_threat_actors_details_ioc Indicators",
+        "description": "fdsffsdf",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--d18355ae-b227-4262-b917-47f5b80b1f78",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "PrivilegeEscalation"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CommandAndControl"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Exfiltration"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Evasion"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InhibitResponseFunction"
+            }
+        ],
+        "revoked": false,
+        "labels": [
+            "fddfsfd.nsdffds"
+        ],
+        "confidence": 80,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--1fff4d9a-447e-4c25-bba7-ceeaa99b1977",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'SHA-1' = '343220b0e37841dc002407860057eb10dbeea94d']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-06-03T10:29:22.000Z",
+        "modified": "2025-06-03T10:29:22.000Z",
+        "valid_from": "2025-06-03T10:29:22.000Z",
+        "valid_until": "2125-05-10T10:29:22.000Z",
+        "name": "DragonForce_threat_actors_details_ioc Indicators",
+        "description": "fdsffsdf",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--d18355ae-b227-4262-b917-47f5b80b1f78",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "PrivilegeEscalation"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CommandAndControl"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Exfiltration"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Evasion"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InhibitResponseFunction"
+            }
+        ],
+        "revoked": false,
+        "labels": [
+            "fddfsfd.nsdffds"
+        ],
+        "confidence": 80,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--a55cf118-ba6c-42c7-b8eb-40eb239da998",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'SHA-1' = '29baab2551064fa30fb18955ccc8f332bd68ddd4']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-06-03T10:29:22.000Z",
+        "modified": "2025-06-03T10:29:22.000Z",
+        "valid_from": "2025-06-03T10:29:22.000Z",
+        "valid_until": "2125-05-10T10:29:22.000Z",
+        "name": "DragonForce_threat_actors_details_ioc Indicators",
+        "description": "fdsffsdf",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--d18355ae-b227-4262-b917-47f5b80b1f78",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "PrivilegeEscalation"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CommandAndControl"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Exfiltration"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Evasion"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InhibitResponseFunction"
+            }
+        ],
+        "revoked": false,
+        "labels": [
+            "fddfsfd.nsdffds"
+        ],
+        "confidence": 80,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--7766964c-a426-4410-bb96-2d98ebbdfb13",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'SHA-1' = '229e073dbcbb72bdfee2c244e5d066ad949d2582']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-06-03T10:29:22.000Z",
+        "modified": "2025-06-03T10:29:22.000Z",
+        "valid_from": "2025-06-03T10:29:22.000Z",
+        "valid_until": "2125-05-10T10:29:22.000Z",
+        "name": "DragonForce_threat_actors_details_ioc Indicators",
+        "description": "fdsffsdf",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--d18355ae-b227-4262-b917-47f5b80b1f78",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "PrivilegeEscalation"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CommandAndControl"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Exfiltration"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Evasion"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InhibitResponseFunction"
+            }
+        ],
+        "revoked": false,
+        "labels": [
+            "fddfsfd.nsdffds"
+        ],
+        "confidence": 80,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--4076f1da-6a3e-4578-a2ac-79b6a43ddfd7",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'SHA-1' = '1f5ae3b51b2dbf9419f4b7d51725a49023abc81c']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-06-03T10:29:22.000Z",
+        "modified": "2025-06-03T10:29:22.000Z",
+        "valid_from": "2025-06-03T10:29:22.000Z",
+        "valid_until": "2125-05-10T10:29:22.000Z",
+        "name": "DragonForce_threat_actors_details_ioc Indicators",
+        "description": "fdsffsdf",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--d18355ae-b227-4262-b917-47f5b80b1f78",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "PrivilegeEscalation"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CommandAndControl"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Exfiltration"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Evasion"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InhibitResponseFunction"
+            }
+        ],
+        "revoked": false,
+        "labels": [
+            "fddfsfd.nsdffds"
+        ],
+        "confidence": 80,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--6938e46e-c2dc-4d7e-8db2-71f2ba1dab8e",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'SHA-1' = '196c08fbab4119d75afb209a05999ce269ffe3cf']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-06-03T10:29:22.000Z",
+        "modified": "2025-06-03T10:29:22.000Z",
+        "valid_from": "2025-06-03T10:29:22.000Z",
+        "valid_until": "2125-05-10T10:29:22.000Z",
+        "name": "DragonForce_threat_actors_details_ioc Indicators",
+        "description": "fdsffsdf",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--d18355ae-b227-4262-b917-47f5b80b1f78",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "PrivilegeEscalation"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CommandAndControl"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Exfiltration"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Evasion"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InhibitResponseFunction"
+            }
+        ],
+        "revoked": false,
+        "labels": [
+            "fddfsfd.nsdffds"
+        ],
+        "confidence": 80,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--e0b160fa-40d6-4748-b60b-3a9495c677fa",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'SHA-1' = '0b22b6e5269ec241b82450a7e65009685a3010fb']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-06-03T10:29:22.000Z",
+        "modified": "2025-06-03T10:29:22.000Z",
+        "valid_from": "2025-06-03T10:29:22.000Z",
+        "valid_until": "2125-05-10T10:29:22.000Z",
+        "name": "DragonForce_threat_actors_details_ioc Indicators",
+        "description": "fdsffsdf",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--d18355ae-b227-4262-b917-47f5b80b1f78",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "PrivilegeEscalation"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CommandAndControl"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Exfiltration"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Evasion"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InhibitResponseFunction"
+            }
+        ],
+        "revoked": false,
+        "labels": [
+            "fddfsfd.nsdffds"
+        ],
+        "confidence": 80,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--dfe65df7-fcca-43d0-b5a3-c5942dc3ee7b",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'SHA-1' = '011894f40bab6963133d46a1976fa587a4b66378']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-06-03T10:29:22.000Z",
+        "modified": "2025-06-03T10:29:22.000Z",
+        "valid_from": "2025-06-03T10:29:22.000Z",
+        "valid_until": "2125-05-10T10:29:22.000Z",
+        "name": "DragonForce_threat_actors_details_ioc Indicators",
+        "description": "fdsffsdf",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--d18355ae-b227-4262-b917-47f5b80b1f78",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "PrivilegeEscalation"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CommandAndControl"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Exfiltration"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Evasion"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InhibitResponseFunction"
+            }
+        ],
+        "revoked": false,
+        "labels": [
+            "fddfsfd.nsdffds"
+        ],
+        "confidence": 80,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--199eee7f-e038-415c-b5a8-987a12f2bbbf",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'MD5' = 'e4a4fc96188310b7b07e7c0525b5c0aa']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-06-03T10:29:22.000Z",
+        "modified": "2025-06-03T10:29:22.000Z",
+        "valid_from": "2025-06-03T10:29:22.000Z",
+        "valid_until": "2125-05-10T10:29:22.000Z",
+        "name": "DragonForce_threat_actors_details_ioc Indicators",
+        "description": "fdsffsdf",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--d18355ae-b227-4262-b917-47f5b80b1f78",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "PrivilegeEscalation"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CommandAndControl"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Exfiltration"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Evasion"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InhibitResponseFunction"
+            }
+        ],
+        "revoked": false,
+        "labels": [
+            "fddfsfd.nsdffds"
+        ],
+        "confidence": 80,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--f454c54e-9cb4-4e29-90d5-3e5e11de4889",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'MD5' = 'd44071f255785c73909d64f824331ebf']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-06-03T10:29:22.000Z",
+        "modified": "2025-06-03T10:29:22.000Z",
+        "valid_from": "2025-06-03T10:29:22.000Z",
+        "valid_until": "2125-05-10T10:29:22.000Z",
+        "name": "DragonForce_threat_actors_details_ioc Indicators",
+        "description": "fdsffsdf",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--d18355ae-b227-4262-b917-47f5b80b1f78",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "PrivilegeEscalation"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CommandAndControl"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Exfiltration"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Evasion"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InhibitResponseFunction"
+            }
+        ],
+        "revoked": false,
+        "labels": [
+            "fddfsfd.nsdffds"
+        ],
+        "confidence": 80,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--dc3828c4-06fd-422d-851e-d603d5461a61",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'MD5' = 'b97812a2e6be54e725defbab88357fa2']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-06-03T10:29:22.000Z",
+        "modified": "2025-06-03T10:29:22.000Z",
+        "valid_from": "2025-06-03T10:29:22.000Z",
+        "valid_until": "2125-05-10T10:29:22.000Z",
+        "name": "DragonForce_threat_actors_details_ioc Indicators",
+        "description": "fdsffsdf",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--d18355ae-b227-4262-b917-47f5b80b1f78",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "PrivilegeEscalation"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CommandAndControl"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Exfiltration"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Evasion"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InhibitResponseFunction"
+            }
+        ],
+        "revoked": false,
+        "labels": [
+            "fddfsfd.nsdffds"
+        ],
+        "confidence": 80,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--2f497dee-ce5b-4898-adff-1e5001e5a5a9",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'MD5' = '8bcd83352bbd52ca7bda998a52dd0e5c']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-06-03T10:29:22.000Z",
+        "modified": "2025-06-03T10:29:22.000Z",
+        "valid_from": "2025-06-03T10:29:22.000Z",
+        "valid_until": "2125-05-10T10:29:22.000Z",
+        "name": "DragonForce_threat_actors_details_ioc Indicators",
+        "description": "fdsffsdf",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--d18355ae-b227-4262-b917-47f5b80b1f78",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "PrivilegeEscalation"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CommandAndControl"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Exfiltration"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Evasion"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InhibitResponseFunction"
+            }
+        ],
+        "revoked": false,
+        "labels": [
+            "fddfsfd.nsdffds"
+        ],
+        "confidence": 80,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--66356f05-998c-4b38-bb48-77a8412d8a38",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'MD5' = '7bdbd180c081fa63ca94f9c22c457376']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-06-03T10:29:22.000Z",
+        "modified": "2025-06-03T10:29:22.000Z",
+        "valid_from": "2025-06-03T10:29:22.000Z",
+        "valid_until": "2125-05-10T10:29:22.000Z",
+        "name": "DragonForce_threat_actors_details_ioc Indicators",
+        "description": "fdsffsdf",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--d18355ae-b227-4262-b917-47f5b80b1f78",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "PrivilegeEscalation"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CommandAndControl"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Exfiltration"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Evasion"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InhibitResponseFunction"
+            }
+        ],
+        "revoked": false,
+        "labels": [
+            "fddfsfd.nsdffds"
+        ],
+        "confidence": 80,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--8785b256-77fe-4757-a989-1249004f6622",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'MD5' = '770c1dc157226638f8ad1ac9669f4883']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-06-03T10:29:22.000Z",
+        "modified": "2025-06-03T10:29:22.000Z",
+        "valid_from": "2025-06-03T10:29:22.000Z",
+        "valid_until": "2125-05-10T10:29:22.000Z",
+        "name": "DragonForce_threat_actors_details_ioc Indicators",
+        "description": "fdsffsdf",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--d18355ae-b227-4262-b917-47f5b80b1f78",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "PrivilegeEscalation"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CommandAndControl"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Exfiltration"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Evasion"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InhibitResponseFunction"
+            }
+        ],
+        "revoked": false,
+        "labels": [
+            "fddfsfd.nsdffds"
+        ],
+        "confidence": 80,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--a59e6f8e-01d2-4ff8-8a75-0fad9bf76206",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'MD5' = '6c755a742f2b2e5c1820f57d0338365f']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-06-03T10:29:22.000Z",
+        "modified": "2025-06-03T10:29:22.000Z",
+        "valid_from": "2025-06-03T10:29:22.000Z",
+        "valid_until": "2125-05-10T10:29:22.000Z",
+        "name": "DragonForce_threat_actors_details_ioc Indicators",
+        "description": "fdsffsdf",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--d18355ae-b227-4262-b917-47f5b80b1f78",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "PrivilegeEscalation"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CommandAndControl"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Exfiltration"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Evasion"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InhibitResponseFunction"
+            }
+        ],
+        "revoked": false,
+        "labels": [
+            "fddfsfd.nsdffds"
+        ],
+        "confidence": 80,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--8b9ca9da-3ba9-4385-af46-4f14c220a42c",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'MD5' = '296cca79bbb3ca764de8fcdc2070ecc2']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-06-03T10:29:22.000Z",
+        "modified": "2025-06-03T10:29:22.000Z",
+        "valid_from": "2025-06-03T10:29:22.000Z",
+        "valid_until": "2125-05-10T10:29:22.000Z",
+        "name": "DragonForce_threat_actors_details_ioc Indicators",
+        "description": "fdsffsdf",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--d18355ae-b227-4262-b917-47f5b80b1f78",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "PrivilegeEscalation"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CommandAndControl"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Exfiltration"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Evasion"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InhibitResponseFunction"
+            }
+        ],
+        "revoked": false,
+        "labels": [
+            "fddfsfd.nsdffds"
+        ],
+        "confidence": 80,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--b491d7ff-c4f4-4afd-b51e-499f8a2e72ee",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'MD5' = '9a218d69ecafe65eae264d2fdb52f1aa']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-06-03T10:29:22.000Z",
+        "modified": "2025-06-03T10:29:22.000Z",
+        "valid_from": "2025-06-03T10:29:22.000Z",
+        "valid_until": "2125-05-10T10:29:22.000Z",
+        "name": "DragonForce_threat_actors_details_ioc Indicators",
+        "description": "fdsffsdf",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--d18355ae-b227-4262-b917-47f5b80b1f78",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "PrivilegeEscalation"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CommandAndControl"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Exfiltration"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Evasion"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InhibitResponseFunction"
+            }
+        ],
+        "revoked": false,
+        "labels": [
+            "fddfsfd.nsdffds"
+        ],
+        "confidence": 80,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--d0232999-5638-45c3-aff6-f34cc2e24087",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'MD5' = 'd54bae930b038950c2947f5397c13f84']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-06-03T10:29:22.000Z",
+        "modified": "2025-06-03T10:29:22.000Z",
+        "valid_from": "2025-06-03T10:29:22.000Z",
+        "valid_until": "2125-05-10T10:29:22.000Z",
+        "name": "DragonForce_threat_actors_details_ioc Indicators",
+        "description": "fdsffsdf",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--d18355ae-b227-4262-b917-47f5b80b1f78",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "PrivilegeEscalation"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CommandAndControl"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Exfiltration"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Evasion"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InhibitResponseFunction"
+            }
+        ],
+        "revoked": false,
+        "labels": [
+            "fddfsfd.nsdffds"
+        ],
+        "confidence": 80,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--ceabf6ed-5df3-423b-b244-13222b82eab5",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'MD5' = '9db8f7378e2df01c842cfcb617e64475']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-06-03T10:29:22.000Z",
+        "modified": "2025-06-03T10:29:22.000Z",
+        "valid_from": "2025-06-03T10:29:22.000Z",
+        "valid_until": "2125-05-10T10:29:22.000Z",
+        "name": "DragonForce_threat_actors_details_ioc Indicators",
+        "description": "fdsffsdf",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--d18355ae-b227-4262-b917-47f5b80b1f78",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "PrivilegeEscalation"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CommandAndControl"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Exfiltration"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Evasion"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InhibitResponseFunction"
+            }
+        ],
+        "revoked": false,
+        "labels": [
+            "fddfsfd.nsdffds"
+        ],
+        "confidence": 80,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    }
+]

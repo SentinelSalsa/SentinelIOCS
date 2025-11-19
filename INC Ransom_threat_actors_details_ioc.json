@@ -1,0 +1,977 @@
+[
+    {
+        "type": "identity",
+        "id": "identity--335713be-c2b0-4690-9671-764895547acd",
+        "name": "IOC Forge Pro User",
+        "identity_class": "organization",
+        "created": "2025-04-22T12:50:58.000Z",
+        "modified": "2025-04-22T12:50:58.000Z",
+        "sectors": [],
+        "contact_information": "",
+        "labels": [
+            "organization: Security Operations"
+        ],
+        "lang": "en",
+        "external_references": []
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--dd114bca-bed3-4564-8a93-085233b3f73f",
+        "spec_version": "2.1",
+        "pattern": "[ipv4-addr:value = '57.129.19.1']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-04-22T12:50:58.000Z",
+        "modified": "2025-04-22T12:50:58.000Z",
+        "valid_from": "2025-04-22T12:50:58.000Z",
+        "valid_until": "2125-03-29T12:50:58.000Z",
+        "name": "INC Ransomware group iocs",
+        "description": "latest iocs from INC ransomware group",
+        "indicator_types": [
+            "IPv4 Address"
+        ],
+        "created_by_ref": "identity--335713be-c2b0-4690-9671-764895547acd",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Reconnaissance"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Discovery"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "LateralMovement"
+            }
+        ],
+        "revoked": false,
+        "labels": [],
+        "confidence": 100,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--7f99f73b-0198-47e2-91fd-b2ce7196177e",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'SHA-256' = 'e2370ef066df692317a5f9d739120e467144cfdcd9a4dd7dd562ebdbf5f0778c']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-04-22T12:50:58.000Z",
+        "modified": "2025-04-22T12:50:58.000Z",
+        "valid_from": "2025-04-22T12:50:58.000Z",
+        "valid_until": "2125-03-29T12:50:58.000Z",
+        "name": "INC Ransomware group iocs",
+        "description": "latest iocs from INC ransomware group",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--335713be-c2b0-4690-9671-764895547acd",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Reconnaissance"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Discovery"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "LateralMovement"
+            }
+        ],
+        "revoked": false,
+        "labels": [],
+        "confidence": 100,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--77d8e25a-35f1-4296-ba2e-4ca453d41169",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'SHA-256' = '463075274e328bd47d8092f4901e67f7fff6c5d972b5ffcf821d3c988797e8e3']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-04-22T12:50:58.000Z",
+        "modified": "2025-04-22T12:50:58.000Z",
+        "valid_from": "2025-04-22T12:50:58.000Z",
+        "valid_until": "2125-03-29T12:50:58.000Z",
+        "name": "INC Ransomware group iocs",
+        "description": "latest iocs from INC ransomware group",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--335713be-c2b0-4690-9671-764895547acd",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Reconnaissance"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Discovery"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "LateralMovement"
+            }
+        ],
+        "revoked": false,
+        "labels": [],
+        "confidence": 100,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--d80a5f64-9608-4684-9684-d6965b341e07",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'SHA-256' = '5e3c44ac77cba228f54304f7f1f9ee4d86099950f230186f11fffaa76c86a5db']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-04-22T12:50:58.000Z",
+        "modified": "2025-04-22T12:50:58.000Z",
+        "valid_from": "2025-04-22T12:50:58.000Z",
+        "valid_until": "2125-03-29T12:50:58.000Z",
+        "name": "INC Ransomware group iocs",
+        "description": "latest iocs from INC ransomware group",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--335713be-c2b0-4690-9671-764895547acd",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Reconnaissance"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Discovery"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "LateralMovement"
+            }
+        ],
+        "revoked": false,
+        "labels": [],
+        "confidence": 100,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--c2aa83e3-8644-4c4b-b9f5-fd0be4526886",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'SHA-256' = 'd147b202e98ce73802d7501366a036ea8993c4c06cdfc6921899efdd22d159c6']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-04-22T12:50:58.000Z",
+        "modified": "2025-04-22T12:50:58.000Z",
+        "valid_from": "2025-04-22T12:50:58.000Z",
+        "valid_until": "2125-03-29T12:50:58.000Z",
+        "name": "INC Ransomware group iocs",
+        "description": "latest iocs from INC ransomware group",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--335713be-c2b0-4690-9671-764895547acd",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Reconnaissance"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Discovery"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "LateralMovement"
+            }
+        ],
+        "revoked": false,
+        "labels": [],
+        "confidence": 100,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--16cc6637-e563-4fe0-8784-5da717f020bf",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'SHA-256' = '508a644d552f237615d1504aa1628566fe0e752a5bc0c882fa72b3155c322cef']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-04-22T12:50:58.000Z",
+        "modified": "2025-04-22T12:50:58.000Z",
+        "valid_from": "2025-04-22T12:50:58.000Z",
+        "valid_until": "2125-03-29T12:50:58.000Z",
+        "name": "INC Ransomware group iocs",
+        "description": "latest iocs from INC ransomware group",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--335713be-c2b0-4690-9671-764895547acd",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Reconnaissance"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Discovery"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "LateralMovement"
+            }
+        ],
+        "revoked": false,
+        "labels": [],
+        "confidence": 100,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--3a31f141-4f6d-41ac-a778-0e065a92c57f",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'SHA-256' = '36e3c83e50a19ad1048dab7814f3922631990578aab0790401bc67dbcc90a72e']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-04-22T12:50:58.000Z",
+        "modified": "2025-04-22T12:50:58.000Z",
+        "valid_from": "2025-04-22T12:50:58.000Z",
+        "valid_until": "2125-03-29T12:50:58.000Z",
+        "name": "INC Ransomware group iocs",
+        "description": "latest iocs from INC ransomware group",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--335713be-c2b0-4690-9671-764895547acd",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Reconnaissance"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Discovery"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "LateralMovement"
+            }
+        ],
+        "revoked": false,
+        "labels": [],
+        "confidence": 100,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--8313647d-6441-4179-9749-ea8cba27193f",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'SHA-256' = 'c41ab33986921c812c51e7a86bd3fd0691f5bba925fae612f1b717afaa2fe0ef']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-04-22T12:50:58.000Z",
+        "modified": "2025-04-22T12:50:58.000Z",
+        "valid_from": "2025-04-22T12:50:58.000Z",
+        "valid_until": "2125-03-29T12:50:58.000Z",
+        "name": "INC Ransomware group iocs",
+        "description": "latest iocs from INC ransomware group",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--335713be-c2b0-4690-9671-764895547acd",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Reconnaissance"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Discovery"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "LateralMovement"
+            }
+        ],
+        "revoked": false,
+        "labels": [],
+        "confidence": 100,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--f7dc7185-9801-4eae-8392-76d96baf8158",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'SHA-256' = '3c4e8f6a5dc94966483069b68981b0ad77ff9c547e8ec3d74ed207e3f037ece6']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-04-22T12:50:58.000Z",
+        "modified": "2025-04-22T12:50:58.000Z",
+        "valid_from": "2025-04-22T12:50:58.000Z",
+        "valid_until": "2125-03-29T12:50:58.000Z",
+        "name": "INC Ransomware group iocs",
+        "description": "latest iocs from INC ransomware group",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--335713be-c2b0-4690-9671-764895547acd",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Reconnaissance"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Discovery"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "LateralMovement"
+            }
+        ],
+        "revoked": false,
+        "labels": [],
+        "confidence": 100,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--98c5c927-8f36-4326-b45e-55b5d6b8bfea",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'SHA-256' = '47873072a0ed065e2f240da3e8b10e7251b9596a82cf0375bfc17f60708b8f74']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-04-22T12:50:58.000Z",
+        "modified": "2025-04-22T12:50:58.000Z",
+        "valid_from": "2025-04-22T12:50:58.000Z",
+        "valid_until": "2125-03-29T12:50:58.000Z",
+        "name": "INC Ransomware group iocs",
+        "description": "latest iocs from INC ransomware group",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--335713be-c2b0-4690-9671-764895547acd",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Reconnaissance"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Discovery"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "LateralMovement"
+            }
+        ],
+        "revoked": false,
+        "labels": [],
+        "confidence": 100,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--0dbfb659-3ad5-47e0-be98-d0204f2747e2",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'SHA-256' = '0cb4e7d35eb3f4585c6168988247e30d99ef24d3ef006d91971e3913ef593c42']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-04-22T12:50:58.000Z",
+        "modified": "2025-04-22T12:50:58.000Z",
+        "valid_from": "2025-04-22T12:50:58.000Z",
+        "valid_until": "2125-03-29T12:50:58.000Z",
+        "name": "INC Ransomware group iocs",
+        "description": "latest iocs from INC ransomware group",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--335713be-c2b0-4690-9671-764895547acd",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Reconnaissance"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Discovery"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "LateralMovement"
+            }
+        ],
+        "revoked": false,
+        "labels": [],
+        "confidence": 100,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--4261d3d4-1ae7-4244-8d37-abb03d23f9f2",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'SHA-256' = '869d6ae8c0568e40086fd817766a503bfe130c805748e7880704985890aca947']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-04-22T12:50:58.000Z",
+        "modified": "2025-04-22T12:50:58.000Z",
+        "valid_from": "2025-04-22T12:50:58.000Z",
+        "valid_until": "2125-03-29T12:50:58.000Z",
+        "name": "INC Ransomware group iocs",
+        "description": "latest iocs from INC ransomware group",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--335713be-c2b0-4690-9671-764895547acd",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Reconnaissance"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Discovery"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "LateralMovement"
+            }
+        ],
+        "revoked": false,
+        "labels": [],
+        "confidence": 100,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--e4ea40d9-faf4-4e3e-820e-73f6ded0c198",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'SHA-256' = '11cfd8e84704194ff9c56780858e9bbb9e82ff1b958149d74c43969d06ea10bd']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-04-22T12:50:58.000Z",
+        "modified": "2025-04-22T12:50:58.000Z",
+        "valid_from": "2025-04-22T12:50:58.000Z",
+        "valid_until": "2125-03-29T12:50:58.000Z",
+        "name": "INC Ransomware group iocs",
+        "description": "latest iocs from INC ransomware group",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--335713be-c2b0-4690-9671-764895547acd",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Reconnaissance"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Discovery"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "LateralMovement"
+            }
+        ],
+        "revoked": false,
+        "labels": [],
+        "confidence": 100,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--e2e16e55-100e-4343-93b7-7b2a76f51c88",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'SHA-256' = 'f96ecd567d9a05a6adb33f07880eebf1d6a8709512302e363377065ca8f98f56']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-04-22T12:50:58.000Z",
+        "modified": "2025-04-22T12:50:58.000Z",
+        "valid_from": "2025-04-22T12:50:58.000Z",
+        "valid_until": "2125-03-29T12:50:58.000Z",
+        "name": "INC Ransomware group iocs",
+        "description": "latest iocs from INC ransomware group",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--335713be-c2b0-4690-9671-764895547acd",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Reconnaissance"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Discovery"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "LateralMovement"
+            }
+        ],
+        "revoked": false,
+        "labels": [],
+        "confidence": 100,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--32b3c298-d6bc-4a59-9488-083a3012a2ba",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'SHA-256' = '1754c9973bac8260412e5ec34bf5156f5bb157aa797f95ff4fc905439b74357a']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-04-22T12:50:58.000Z",
+        "modified": "2025-04-22T12:50:58.000Z",
+        "valid_from": "2025-04-22T12:50:58.000Z",
+        "valid_until": "2125-03-29T12:50:58.000Z",
+        "name": "INC Ransomware group iocs",
+        "description": "latest iocs from INC ransomware group",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--335713be-c2b0-4690-9671-764895547acd",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Reconnaissance"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Discovery"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "LateralMovement"
+            }
+        ],
+        "revoked": false,
+        "labels": [],
+        "confidence": 100,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--6d393474-04e0-48c6-8952-0ba0fd277a3d",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'SHA-256' = 'a0ceb258924ef004fa4efeef4bc0a86012afdb858e855ed14f1bbd31ca2e42f5']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-04-22T12:50:58.000Z",
+        "modified": "2025-04-22T12:50:58.000Z",
+        "valid_from": "2025-04-22T12:50:58.000Z",
+        "valid_until": "2125-03-29T12:50:58.000Z",
+        "name": "INC Ransomware group iocs",
+        "description": "latest iocs from INC ransomware group",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--335713be-c2b0-4690-9671-764895547acd",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Reconnaissance"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Discovery"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "LateralMovement"
+            }
+        ],
+        "revoked": false,
+        "labels": [],
+        "confidence": 100,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--47ddacb9-437a-4aed-b2c9-440ab02c19da",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'SHA-256' = 'accd8bc0d0c2675c15c169688b882ded17e78aed0d914793098337afc57c289c']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-04-22T12:50:58.000Z",
+        "modified": "2025-04-22T12:50:58.000Z",
+        "valid_from": "2025-04-22T12:50:58.000Z",
+        "valid_until": "2125-03-29T12:50:58.000Z",
+        "name": "INC Ransomware group iocs",
+        "description": "latest iocs from INC ransomware group",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--335713be-c2b0-4690-9671-764895547acd",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Reconnaissance"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Discovery"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "LateralMovement"
+            }
+        ],
+        "revoked": false,
+        "labels": [],
+        "confidence": 100,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--931bd585-9c2c-4706-97ba-eca8cabda760",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'SHA-256' = 'fcefe50ed02c8d315272a94f860451bfd3d86fa6ffac215e69dfa26a7a5deced']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-04-22T12:50:58.000Z",
+        "modified": "2025-04-22T12:50:58.000Z",
+        "valid_from": "2025-04-22T12:50:58.000Z",
+        "valid_until": "2125-03-29T12:50:58.000Z",
+        "name": "INC Ransomware group iocs",
+        "description": "latest iocs from INC ransomware group",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--335713be-c2b0-4690-9671-764895547acd",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Reconnaissance"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Discovery"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "LateralMovement"
+            }
+        ],
+        "revoked": false,
+        "labels": [],
+        "confidence": 100,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--cbd9d5ed-1bcf-4ced-99cf-b11bb05d8f47",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'SHA-256' = 'd11cf847df9dac6eda1891022986729efe690b3db8e6f876bef4e7a6afffc759']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-04-22T12:50:58.000Z",
+        "modified": "2025-04-22T12:50:58.000Z",
+        "valid_from": "2025-04-22T12:50:58.000Z",
+        "valid_until": "2125-03-29T12:50:58.000Z",
+        "name": "INC Ransomware group iocs",
+        "description": "latest iocs from INC ransomware group",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--335713be-c2b0-4690-9671-764895547acd",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Reconnaissance"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Discovery"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "LateralMovement"
+            }
+        ],
+        "revoked": false,
+        "labels": [],
+        "confidence": 100,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--7f123b93-183d-4635-96d0-4ceae30d8f0b",
+        "spec_version": "2.1",
+        "pattern": "[file:hashes.'SHA-256' = '6606d759667fbdfaa46241db7ffb4839d2c47b88a20120446f41e916cad77d0b']",
+        "pattern_type": "stix",
+        "pattern_version": "1.0",
+        "created": "2025-04-22T12:50:58.000Z",
+        "modified": "2025-04-22T12:50:58.000Z",
+        "valid_from": "2025-04-22T12:50:58.000Z",
+        "valid_until": "2125-03-29T12:50:58.000Z",
+        "name": "INC Ransomware group iocs",
+        "description": "latest iocs from INC ransomware group",
+        "indicator_types": [
+            "Other"
+        ],
+        "created_by_ref": "identity--335713be-c2b0-4690-9671-764895547acd",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Reconnaissance"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "InitialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "CredentialAccess"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "Discovery"
+            },
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "LateralMovement"
+            }
+        ],
+        "revoked": false,
+        "labels": [],
+        "confidence": 100,
+        "lang": "en",
+        "external_references": [],
+        "object_marking_refs": [],
+        "granular_markings": [],
+        "extensions": {}
+    }
+]
